@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<PED Tipo="INTERESSEPROJETOPED" CodigoEmpresa="04906">
+	<PD_InteresseProjeto>
+		<Projeto>
+			<CodProjeto>PD-4906-0045/2016</CodProjeto>
+			<Interesse>S</Interesse>
+		</Projeto>
+	</PD_InteresseProjeto>
+</PED>

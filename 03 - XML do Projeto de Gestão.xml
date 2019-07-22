@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<PED Tipo="PROJETOGESTAO" CodigoEmpresa="0CÓDIGO DA EMPRESA PARA ENVIO DE INFORMAÇÕES VIA DUTO">
+	<PD_ProjetoGestao>
+		<Empresas>
+			<Empresa>
+				<TipoEmpresa>Letra</TipoEmpresa> <!--Tipo da Empresa: P (proponente); C (cooperada) -->
+				<CodEmpresa>Número</CodEmpresa> <!-- Código da Empresa para envio de informações via DUTO, no formato numérico 9999.  -->
+				<Equipe>
+					<EquipeGestao>
+						<NomeMbEqEmp>Texto</NomeMbEqEmp> <!--Nome completo, conforme cadastrado na Plataforma LATTES do CNPq, de membro da Empresa do Projeto de Gestão.-->
+						<CpfMbEqEmp>Número</CpfMbEqEmp> <!--CPF do membro da Empresa selecionado, no formato numérico 99999999999-->
+					</EquipeGestao>
+				</Equipe>
+				<CustosContabeis>
+					<CustoCatContabil>
+						<CategoriaContabil>Código</CategoriaContabil> <!--Código da categoria contábil, conforme Tabela ABAIXO. 
+						Código - Categor ia Contábil
+						RH - Recursos Humanos
+						ST - Serviços de Terceiros
+						MC - Materiais de Consumo
+						VD - Viagens e Diárias
+						OU - Outros
+						CT - CITENEL
+						AC - Auditoria Contábil e Financeira
+						*** JA EXISTE NO DB *** TTIPO_RECURSO *** necessário edição ou criação de nova
+						-->
+						<CustoEmpresa>Moeda</CustoEmpresa> <!--Custo a investir pela Empresa na categoria contábil selecionada. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal.-->
+					</CustoCatContabil>
+				</CustosContabeis>
+			</Empresa>
+		</Empresas>
+		<Atividades>
+			<Atividade>
+				<TipoAtividade>Código</TipoAtividade> <!--Código do tipo de atividade, conforme Tabela ABAIXO: 
+				Código	-	Tipo de Atividade	-	Categor ia Contábil Associada
+				HH	-	Dedicação horária dos membros da equipe de gestão do Programa de P&D da Empresa, quadro efetivo.	-	Recur sos Humanos.
+				EC	-	Participação dos membros da equipe de gestão em eventos sobre pesquisa, desenvolvimento e inovação relacionados ao setor elétrico e/ou em cursos de gestão tecnológica e da informação. - Custo previsto para inscrição em evento e custo previsto para inscrição/mensalidades em curso: "Outros." 	-	Custo previsto para passagens e diárias: "Viagens e Diárias."
+				FG	-	Desenvolvimento de ferramenta para gestão do Programa de P&D da Empresa, excluindose aquisição de equipamentos.	-	Serviços de Terceiros.
+				PP	-	Prospecção tecnológica e demais atividades necessárias ao planejamento e à elaboração do plano estratégico de investimento em P&D.	-	Custos previstos para os serviços a serem contratados: "Serviços de Terceiros". Custo previsto para passagens e diárias para membros da equipe de gestão: "Viagens e Diárias".
+				RP	-	Divulgação de resultados de projetos de P&D, concluídos e/ou em execução.	-	Custo previsto para elaboração de seminário/workshop: "Materiais de Consumo". Custo previsto para divulgação/publicação de resultados: "Outros."  Custo previsto para passagens e diárias: "Viagens e Diárias."
+				AP	-	Participação dos responsáveis técnicos pelos projetos de P&D nas avaliações presenciais convocadas pela ANEEL.	-	Viagens e Diárias.
+				BA	-	Buscas de anterioridade no Instituto Nacional da Propriedade Industrial (INPI).	-	Outros.
+				CA	-	Contratação de auditoria contábil e financeira para os projetos concluídos.	-	Auditor ia Contábil e Financeira.
+				AC	-	Apoio à realização do CITENEL.	-	CITENEL.
+				-->
+				<DescAtividade>Texto</DescAtividade> <!--Descrição, sucinta, das ações a serem realizadas pela(s) Empresa(s) na atividade selecionada (até 1.000 caracteres).-->
+				<CustoAtividade>Moeda</CustoAtividade> <!--Valor a ser aplicado pela(s) Empresa(s) na atividade selecionada. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal.-->
+			</Atividade>
+		</Atividades>
+		<Duracao>Número</Duracao> <!--Duração, em meses, para execução do Projeto de Gestão (duração máxima: 12).-->
+		<CpfGerente>Número</CpfGerente> <!--CPF do Gerente do Projeto de Gestão, dentre os membros já listados na equipe do projeto, no formato numérico 99999999999.-->
+	</PD_ProjetoGestao>
+</PED>

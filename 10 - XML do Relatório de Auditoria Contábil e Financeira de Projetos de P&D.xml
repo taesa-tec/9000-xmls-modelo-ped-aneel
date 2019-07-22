@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<PED Tipo="RELATORIOAUDITORIAPED" CodigoEmpresa="0CÓDIGO DA EMPRESA PARA ENVIO DE INFORMAÇÕES VIA DUTO">
+	<PD_RelAuditoriaPED>
+		<CodProjeto>Código</CodProjeto> <!--Código do Projeto de P&D, conforme cadastrado no Sistema de Gestão de P&D ANEEL -->
+		<ArquivoPDF>Texto</ArquivoPDF> <!--Nome do arquivo em formato PDF do Relatório de Auditoria Contábil e Financeira do Projeto de P&D, ex: "APLPED9999_RELATORIOAUDITORIAPED_9999_S99.pdf"  
+		APLPED9999 = 9999 -> cod da empresa de energia
+		_9999_ = numero do projeto
+		_S99 = Seqüência do envio do arquivo eletrônico		
+		-->
+		<CustoTotal>Moeda</CustoTotal> <!-- Custo de execução do Projeto de P&D. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal. -->
+		<RecursoEmpresa> <!-- ## REPETIR ## para identificar todas as empresas de energia elétrica que custearam recursos no Projeto -->
+			<CodEmpresa>Número</CodEmpresa> <!--  Código da empresa de energia elétrica, para envio de informações via DUTO, financiadora de recursos no Projeto de P&D, no formato numérico 9999 -->
+			<DestRecursosExec> <!-- ## REPETIR ## para identificar todas as entidades executoras que receberam recursos financeiros de uma determinada empresa de energia elétrica 
+									@@Excluir@@ caso não haja custeio de recursos para entidades executoras no Projeto -->
+				<CNPJExec>Número</CNPJExec> <!-- CNPJ da entidade executora receptora de recursos no Projeto de P&D, no formato numérico 99999999999999 -->
+				<CustoCatContabilExec> <!-- ##REPETIR## deverá ser repetido para identificar todas as categorias contábeis, distintas, custeadas por uma determinada empresa de energia elétrica para uma determinada entidade executora (MAX de 6 diferentes)  -->
+					<CatContabil>Código</CatContabil> <!-- Código da categoria contábil, custeada para a entidade executora selecionada conforme tabela abaixo:
+					Código - Categoria Contábil
+					RH - Recursos Humanos
+					ST - Serviços de Terceiros
+					MC - Materiais de Consumo
+					MP - Materiais Permanentes e Equipamentos
+					VD - Viagens e Diárias
+					OU - Outros
+					-->
+					<CustoExec>Moeda</CustoExec> <!-- Valor dos recursos reconhecidos pela Auditoria recebidos pela entidade executora na categoria contábil selecionada. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal -->
+				</CustoCatContabilExec>
+			</DestRecursosExec>
+			<DestRecursosEmp>  <!-- @@ EXCLUIR@@ Caso não haja custeio de recursos para a própria empresa de energia elétrica no Projeto -->
+				<CustoCatContabilExec> <!-- ## REPETIR##  tantas vezes quantas forem necessárias para identificar todas as categorias contábeis distintas, custeadas para a própria empresa de energia elétrica -->
+					<CatContabil>Código</CatContabil> <!--  Código da categoria contábil, custeada para a própria empresa de energia elétrica, conforme tabela abaixo:
+					Código - Categoria Contábil
+					RH - Recursos Humanos
+					ST - Serviços de Terceiros
+					MC - Materiais de Consumo
+					MP - Materiais Permanentes e Equipamentos
+					VD - Viagens e Diárias
+					OU - Outros	-->
+					<CustoEmp>Moeda</CustoEmp> <!--  Valor dos recursos reconhecidos pela Auditoria recebidos pela própria empresa de energia elétrica na categoria contábil selecionada. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal -->
+				</CustoCatContabil>
+			</DestRecursosEmp>
+		</RecursoEmpresa>
+		<RecursoParceira> <!-- @@ EXCLUIR@@ Caso não haja entidade parceira aportando recursos financeiros no Projeto 
+								## REPETIR## para identificar todas a entidades parceiras -->
+			<CNPJParc>Número</CNPJParc> <!--  CNPJ da entidade parceira financiadora de recursos no Projeto de P&D, no formato numérico 99999999999999 -->
+			<DestRecursosExec> <!-- ## REPETIR ## para identificar todas as entidades executoras que receberam recursos financeiros de uma determinada empresa de uma emrpesa parceira -->
+				<CNPJExec>Número</CNPJExec> <!-- CNPJ da entidade executora receptora de recursos no Projeto de P&D, no formato numérico 99999999999999 -->
+				<CustoCatContabilExec>
+					<CatContabil>Código</CatContabil> <!-- Código da categoria contábil, custeada para a entidade executora selecionada conforme tabela abaixo:
+					Código - Categoria Contábil
+					RH - Recursos Humanos
+					ST - Serviços de Terceiros
+					MC - Materiais de Consumo
+					MP - Materiais Permanentes e Equipamentos
+					VD - Viagens e Diárias
+					OU - Outros
+					-->
+					<CustoExec>Moeda</CustoExec> <!-- Valor dos recursos reconhecidos pela Auditoria recebidos pela entidade executora na categoria contábil selecionada. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal -->
+				</CustoCatContabil>
+			</DestRecursosExec>
+		</RecursoParceira>
+	</PD_RelAuditoriaPED>
+</PED>

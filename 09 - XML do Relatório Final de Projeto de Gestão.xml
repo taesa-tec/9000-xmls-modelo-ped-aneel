@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<PED Tipo="RELATORIOFINALGESTAO" CodigoEmpresa="0CÓDIGO DA EMPRESA PARA ENVIO DE INFORMAÇÕES VIA DUTO">
+	<PD_RelFinalBase>
+		<CodProjeto>Código</CodProjeto> <!-- Código do Projeto de Gestão, conforme cadastrado no Sistema de Gestão de P&D ANEEL -->
+		<ArquivoPDF>Texto</ArquivoPDF> <!-- Nome do arquivo em formato PDF do Relatório Final do Projeto de P&D, conforme APLPED'num_aneel_empresa'_'Tipo_arquivo'_'num_aneel_proj'_S'ordem_envio'.PDF , ex: APLPED4950_RELATORIOAUDITORIAGESTAO_0002_S01.PDF -->
+		<DataIniODS>Data</DataIniODS> <!--Data de início de execução (abertura da ODS) do Projeto de Gestão, no formato numérico DDMMAAAA-->
+		<DataFimODS>Data</DataFimODS> <!-- Data de término de execução (fechamento da ODS) do Projeto de Gestão, no formato numérico DDMMAAAA -->
+		<Atividades>
+			<Atividade> <!-- #REPETIR## tantas vezes quantas forem necessárias para identificar todas as atividades (Não deverá ser informada a atividade HH) -->
+				<TipoAtividade>Código</TipoAtividade> <!-- Código do tipo de atividade realizada (excetuando se HH)
+Código - Tipo de Atividade	-	Categoria Contábil Associada	
+HH	-	Dedicação horária dos membros da	-	Recursos Humanos
+		equipe de gestão do Programa de P&D
+		da Empresa, quadro efetivo.
+
+EC	-	Participação dos membros da equipe de		- Custo previsto para inscrição em evento e custo
+		gestão em eventos sobre pesquisa,			- previsto para inscrição/mensalidades em curso: Outros.
+		desenvolvimento e inovação relacionados		- Custo previsto para passagens e diárias: Viagens e 
+		ao setor elétrico e/ou em cursos de gestão	- Diárias
+		tecnológica e da informação.
+
+FG	-	Desenvolvimento de ferramenta para		- Serviços de Terceiros.
+		gestão do Programa de P&D da Empresa,
+		excluindose aquisição de equipamentos.
+
+PP	-	Prospecção tecnológica e demais			- Custos previstos para os serviços a serem
+		atividades necessárias ao planejamento	- contratados: Serviços de Terceiros.
+		e à elaboração do plano estratégico de	- Custo previsto para passagens e diárias para
+		investimento em P&D.					- membros da equipe de gestão: Viagens e Diárias.
+
+RP	-	Divulgação de resultados de projetos de	- Custo previsto para elaboração de
+		P&D, concluídos e/ou em execução.		- seminário/workshop: Materiais de Consumo.
+												- Custo previsto para divulgação/publicação de
+												- resultados: Outros.
+												- Custo previsto para passagens e diárias: Viagens e Diárias.
+
+AP	-	Participação dos responsáveis técnicos	- Viagens e Diárias
+		pelos projetos de P&D nas avaliações
+		presenciais convocadas pela ANEEL.
+						
+BA	-	Buscas de anterioridade no Instituto	- Outros.
+		Nacional da Propriedade Industrial(INPI).						
+
+CA	-	Contratação de auditoria contábil e		- Auditor ia Contábil e Financeira
+		financeira para os projetos concluídos
+		
+AC	-	Apoio à realização do CITENEL			- CITENEL
+-->
+				<ResAtividade>Texto</ResAtividade> <!-- Descrição, sucinta, dos resultados obtidos para a atividade selecionada (até 1.000 caracteres) -->
+				<CustoAtividade>Moeda</CustoAtividade> <!-- Custo aplicado na atividade selecionada. 
+															Usar o ponto ‘.’ como separador de milhar e 
+															a vírgula ‘,’como separador decimal. -->
+			</Atividade>
+		</Atividades>
+	</PD_RelFinalBase>
+	<PD_Equipe>
+		<Empresas>
+			<Empresa> <!-- ##REPETIR## tantas vezes forem necessárias para identificar todas as empresas de energia elétrica que participaram da execução do Projeto de Gestão. Deverá haver apenas uma Empresa Proponente -->
+			<CodEmpresa>Número</CodEmpresa> <!-- Código da Empresa para envio de informações via DUTO, no formato numérico 9999.  -->
+			<TipoEmpresa>Letra</TipoEmpresa> <!-- Tipo da Empresa: P (proponente); C (cooperada) -->
+			<Equipe>
+				<EquipeGestao><!-- ##REPETIR##  tantas vezes quantas forem necessárias para identificar todos os membros de uma determinada empresa de energia elétrica que compõem a equipe do Projeto de P&D. Deverá haver apenas um Gerente no Projeto de Gestão -->
+					<NomeMbEqEmp>Texto</NomeMbEqEmp> <!-- Nome completo, conforme cadastrado na Plataforma LATTES do CNPq, de membro da Empresa no Projeto de P&D. -->
+					<CpfMbEqEmp>Número</CpfMbEqEmp> <!-- CPF do membro da Empresa selecionado, no formato numérico 99999999999. -->
+					<HhMbEqEmp>Moeda</HhMbEqEmp> <!-- Valor da hora trabalhada do membro da Empresa selecionado. Usar a vírgula ‘,’ como separador decimal -->
+					<MesMbEqEmp>Texto</MesMbEqEmp> <!-- Meses dedicados ao projeto, separados por vírgula, do membro da Empresa selecionado (limite de vírgulas: duração do projeto 1; mês limite: duração do projeto). -->
+					<HoraMesMbEqEmp>Texto</HoraMesMbEqEmp> <!-- Quantidade de horas dedicadas ao projeto para cada mês de atuação (h/mês), separada por vírgulas, do membro da Empresa selecionado (limite de vírgulas: duração do projeto 1; h/mês limite para dedicação exclusiva: 160). -->
+				</EquipeGestao>
+			</Equipe>
+			</Empresa>
+		</Empresas>
+	</PD_Equipe>
+	<PD_Etapas>
+		<Etapa> <!-- ##REPETIR## deverá ser repetido, sequencialmente, tantas vezes quantas forem necessárias para identificar todas as etapas de execução do Projeto de Gestão -->
+			<EtapaN>Número</EtapaN> <!-- Número seqüencial da etapa do Projeto de Gestão, com dois caracteres inteiros, iniciandose em 01. -->
+			<Atividades>Texto</Atividades> <!-- Descrição das atividades realizadas na etapa selecionada (até 300 caracteres) -->
+			<MesExecEtapa>Número</MesExecEtapa> <!-- Meses de execução da etapa selecionada, separados por vírgula, (limite de vírgulas=duração do projeto -1; mês limite=duração do projeto) -->
+		</Etapa>
+	</PD_Etapas>
+	<PD_Recursos>
+		<RecursoEmpresa> <!-- ##REPETIR## deverá ser repetido, sequencialmente, tantas vezes quantas forem necessárias para identificar Todas as empresas de energia elétrica que custearam a execução do Projeto de Gestão -->
+		<CodEmpresa>Número</CodEmpresa> <!-- Código da empresa de energia elétrica, para envio de informações via DUTO, financiadora de item de despesa no Projeto de Gestão, no formato numérico 9999. -->
+			<CustoCatContabil> <!-- #REPETIR## tantas vezes quantas forem necessárias para identificar todas as categorias contábeis, custeadas por uma determinada empresa de energia elétrica. Poderão ser informados até seis das sete categorias contábeis e não deverão ser informadas as despesas para a categoria contábil RH -->
+			<CategoriaContabil>Código</CategoriaContabil> <!-- Código da categoria contábil, conforme Tabela abaixo (excetuandose RH), custeada pela empresa de energia elétrica selecionada
+			Código - Categoria Contábil
+			ST - Serviços de Terceiros
+			MC - Materiais de Consumo
+			MP - Materiais Permanentes e Equipamentos
+			VD - Viagens e Diárias
+			OU - Outros
+			-->
+				<ItemDespesa> <!-- ##REPETIR## deverá ser repetido, sequencialmente, tantas vezes quantas forem necessárias para identificar todos os itens de despesa adquiridos, na categoria contábil selecionada -->
+					<NomeItem>Texto</NomeItem> <!-- Especificação técnica do item de despesa, na categoria contábil selecionada (até 200 caracteres). -->
+					<JustificaItem>Texto</JustificaItem> <!-- Justificativa da necessidade, para o Projeto de Gestão, do item de despesa selecionado (até 1.000 caracteres) -->
+					<QtdeItem>Número</QtdeItem> <!-- Quantidade do item de despesa selecionado -->
+					<ValorIndItem>Moeda</ValorIndItem> <!-- Valor individual do item de despesa selecionado. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal -->
+					<TipoItem>Letra</TipoItem> <!-- Tipo do item de despesa selecionado: N (Nacional); I (Internacional). -->
+				</ItemDespesa>
+			</CustoCatContabil>
+		</RecursoEmpresa>
+	</PD_Recursos>
+	<PD_ResultadosCP> <!-- @@EXCLUIR@@ caso não exista preenchimento de nenhuma capacitação profissional-->
+		<IdCP> <!-- ##REPETIR## tantas vezes quantas forem necessárias para identificar todas as capacitações profissionais realizadas -->
+			<TipoCP>Código</TipoCP> <!-- Código do tipo de capacitação profissional realizada como resultado do projeto, conforme tabela abaixo:
+			Código - Capacitação Profissional Realizada
+			PD - PósDoutorado (Stricto Sensu)
+			DO - Doutorado (Stricto Sensu)
+			ME - Mestrado (Stricto Sensu)
+			ES - Especialização (Lato Sensu)
+			-->
+			<ConclusaoCP>Letra</ConclusaoCP> <!-- Conclusão da capacitação profissional: S (Sim); N (Não). -->
+			<DataCP>Data</DataCP> <!-- Data de conclusão da capacitação profissional, no formato numérico DDMMAAAA -->
+			<DocMmbEqCP>Texto</DocMmbEqCP> <!-- CPF ou Passaporte(somente se internacional) do membro da equipe do projeto que realizou a capacitação profissional: CPF no formato numérico 99999999999, se brasileiro; Passaporte com até 20 caracteres, caso contrário -->
+			<CNPJInstCP>Número</CNPJInstCP> <!-- CNPJ de instituição reconhecida pelo MEC e recomendada pela CAPES, onde foi obtida a capacitação profissional, no formato numérico 99999999999999 -->
+			<AreaCP>Texto</AreaCP> <!-- Área de pesquisa da capacitação profissional (até 50 caracteres) -->
+			<TituloCP>Texto</TituloCP> <!-- Título do trabalho que deu origem à capacitação profissional (até 200 caracteres) -->
+			<ArquivoPDF>Texto</ArquivoPDF> <!-- Nome do arquivo em formato PDF do trabalho que deu origem à capacitação profissional -->
+		</IdCP>
+	</PD_ResultadosCP>
+	<PD_ResultadosPC> <!-- @@EXCLUIR@@ caso não exista preenchimento de nenhuma capacitação profissional-->
+		<IdPC>
+			<TipoPC>Código</TipoPC> <!-- Código do tipo de produção técnico-científica realizada como resultado do projeto, conforme Tabela Abaixo:
+			Código - Tipo da Produção técnico-científica (Local de Publicação)
+			PN - Periódico Nacional
+			PI - Periódico Internacional
+			AN - Anais de Evento Nacional
+			AI - Anais de Evento Internacional
+			-->
+			<ConfPubPC>Letra</ConfPubPC> <!-- Recebida confirmação da publicação da produção técnico-científica: S (Sim); N (Não). -->
+			<DataPC>Data</DataPC> <!-- Data de publicação da produção técnico-científica, no formato numérico MMAAAA -->
+			<NomePC>Texto</NomePC> <!-- Nome do periódico ou do evento de publicação da produção técnico-científica (até 50 caracteres) -->
+			<LinkPC>Texto</LinkPC> <!-- Endereço eletrônico, na internet, do periódico ou do evento de publicação da produção técnico-científica (até 50 caracteres) -->
+			<PaisPC>Texto</PaisPC> <!-- País de publicação da produção técnico-científica (até 30 caracteres) -->
+			<CidadePC>Texto</CidadePC> <!-- Cidade de publicação da produção técnico-científica (até 30 caracteres) -->
+			<TituloPC>Texto</TituloPC> <!-- Título do trabalho que gerou a produção técnico-científica (até 200 caracteres) -->
+			<ArquivoPDF >Texto</ArquivoPDF> <!-- Nome do arquivo em formato PDF do trabalho que gerou a produção técnico-científica -->
+		</IdPC>
+	</PD_ResultadosPC>
+</PED>
