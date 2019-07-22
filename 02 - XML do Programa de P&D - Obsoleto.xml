@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<PED Tipo="PROGRAMA" CodigoEmpresa="0CÓDIGO DA EMPRESA PARA ENVIO DE INFORMAÇÕES VIA DUTO">
+	<PD_Programa>
+		<Empresas>
+			<Empresa>
+				<TipoEmpresa>Letra</TipoEmpresa> <!-- Tipo da Empresa: P (proponente); C (cooperada).-->
+				<CodEmpresa>Número</CodEmpresa> <!-- Código da Empresa para envio de informações via DUTO, no formato numérico 9999.  -->
+			</Empresa>
+		</Empresas>
+		<InicioVigencia>Data</InicioVigencia> <!-- Ano e mês de início de vigência do Plano Estratégico de Investimentos em P&D da(s) Empresa(s), no formato numérico AAAAMM -->
+		<FimVigencia>Data</FimVigencia> <!--Ano e mês de fim de vigência do Plano Estratégico de Investimentos em P&D da(s) Empresa(s), no formato numérico AAAAMM.-->
+		<Temas>
+			<Tema>
+				<CodTema>Código</CodTema> <!--Código do tema para investimentos em P&D, dentre os listados no portal da ANEEL, durante a vigência do Plano. 
+				*** JA EXISTE NO DB *** TTEMA_ANEEL > SIG_TEMA_ANEEL *** -->
+				<JustificativasTema>Texto</JustificativasTema> <!-- Descrição, sucinta, das justificativas para investimento pela(s) Empresa(s) no tema selecionado. Indicar, também, as linhas de pesquisa (até 2.500 caracteres). -->
+				<ObjetivosTema>Texto</ObjetivosTema> <!-- Descrição, sucinta, dos objetivos a serem alcançados pela(s) Empresa(s) no tema selecionado. Indicar, também, se há perspectiva para “seguir” a cadeia da inovação, em cada linha de pesquisa, e as parcerias estabelecidas para produção de bens e comercialização (até 2.000 caracteres).-->
+			</Tema>
+		</Temas>
+	</PD_Programa>
+</PED>
