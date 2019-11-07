@@ -37,7 +37,7 @@
 					VD - Viagens e Diárias
 					OU - Outros	-->
 					<CustoEmp>Moeda</CustoEmp> <!--  Valor dos recursos reconhecidos pela Auditoria recebidos pela própria empresa de energia elétrica na categoria contábil selecionada. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal -->
-				</CustoCatContabil>
+				</CustoCatContabilExec>
 			</DestRecursosEmp>
 		</RecursoEmpresa>
 		<RecursoParceira> <!-- @@ EXCLUIR@@ Caso não haja entidade parceira aportando recursos financeiros no Projeto 
@@ -56,7 +56,7 @@
 					OU - Outros
 					-->
 					<CustoExec>Moeda</CustoExec> <!-- Valor dos recursos reconhecidos pela Auditoria recebidos pela entidade executora na categoria contábil selecionada. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal -->
-				</CustoCatContabil>
+				</CustoCatContabilExec>
 			</DestRecursosExec>
 		</RecursoParceira>
 	</PD_RelAuditoriaPED>

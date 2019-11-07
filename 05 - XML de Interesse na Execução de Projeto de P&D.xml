@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ISO8859-1"?>
-<PED Tipo="INTERESSEPROJETOPED" CodigoEmpresa="04906">
+<PED Tipo="INTERESSEPROJETOPED" CodigoEmpresa="0CÓDIGO DA EMPRESA PARA ENVIO DE INFORMAÇÕES VIA DUTO">
 	<PD_InteresseProjeto>
 		<Projeto>
-			<CodProjeto>PD-4906-0045/2016</CodProjeto>
+			<CodProjeto>PD-00000-0000/0000</CodProjeto>
 			<Interesse>S</Interesse>
 		</Projeto>
 	</PD_InteresseProjeto>
