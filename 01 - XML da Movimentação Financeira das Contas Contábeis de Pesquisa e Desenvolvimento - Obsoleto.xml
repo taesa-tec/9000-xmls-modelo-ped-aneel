@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="ISO8859-1"?>
-<PED Tipo="MOVIMENTACAOFINANCEIRA" CodigoEmpresa="CÓDIGO DA EMPRESA PARA ENVIO DE INFORMAÇÕES VIA DUTO">
+<?xml version="1.0" encoding="UTF-8"?>
+<PED Tipo="MOVIMENTACAOFINANCEIRA" CodigoEmpresa="CÃ“DIGO DA EMPRESA PARA ENVIO DE INFORMAÃ‡Ã•ES VIA DUTO">
 	<PD_MovFinEmpresa>
-		<CodEmpresa>Número</CodEmpresa>
+		<CodEmpresa>NÃºmero</CodEmpresa>
 		<MovFinMesRef>Data</MovFinMesRef>
 		<VlrRolMesRef>Moeda</VlrRolMesRef>
 		<VlrFNDCTMesRef>Moeda</VlrFNDCTMesRef>
@@ -14,7 +14,7 @@
 		<SldODSMesRef>Moeda</SldODSMesRef>
 		<LancANEELMesRef219>Moeda</LancANEELMesRef219>
 		<LancANEELMesRef316>Moeda</LancANEELMesRef316>
-		<TaxaSELICMesRef>Número</TaxaSELICMesRef>
+		<TaxaSELICMesRef>NÃºmero</TaxaSELICMesRef>
 		<VlrSELICMesRef>Moeda</VlrSELICMesRef>
 		<SldTotPEDMesRef>Moeda</SldTotPEDMesRef>
 	</PD_MovFinEmpresa>

@@ -1,53 +1,53 @@
-<?xml version="1.0" encoding="ISO8859-1"?>
-<PED Tipo="PROJETOGESTAO" CodigoEmpresa="0CÓDIGO DA EMPRESA PARA ENVIO DE INFORMAÇÕES VIA DUTO">
+<?xml version="1.0" encoding="UTF-8"?>
+<PED Tipo="PROJETOGESTAO" CodigoEmpresa="0CÃ“DIGO DA EMPRESA PARA ENVIO DE INFORMAÃ‡Ã•ES VIA DUTO">
 	<PD_ProjetoGestao>
 		<Empresas>
 			<Empresa>
 				<TipoEmpresa>Letra</TipoEmpresa> <!--Tipo da Empresa: P (proponente); C (cooperada) -->
-				<CodEmpresa>Número</CodEmpresa> <!-- Código da Empresa para envio de informações via DUTO, no formato numérico 9999.  -->
+				<CodEmpresa>NÃºmero</CodEmpresa> <!-- CÃ³digo da Empresa para envio de informaÃ§Ãµes via DUTO, no formato numÃ©rico 9999.  -->
 				<Equipe>
 					<EquipeGestao>
-						<NomeMbEqEmp>Texto</NomeMbEqEmp> <!--Nome completo, conforme cadastrado na Plataforma LATTES do CNPq, de membro da Empresa do Projeto de Gestão.-->
-						<CpfMbEqEmp>Número</CpfMbEqEmp> <!--CPF do membro da Empresa selecionado, no formato numérico 99999999999-->
+						<NomeMbEqEmp>Texto</NomeMbEqEmp> <!--Nome completo, conforme cadastrado na Plataforma LATTES do CNPq, de membro da Empresa do Projeto de GestÃ£o.-->
+						<CpfMbEqEmp>NÃºmero</CpfMbEqEmp> <!--CPF do membro da Empresa selecionado, no formato numÃ©rico 99999999999-->
 					</EquipeGestao>
 				</Equipe>
 				<CustosContabeis>
 					<CustoCatContabil>
-						<CategoriaContabil>Código</CategoriaContabil> <!--Código da categoria contábil, conforme Tabela ABAIXO. 
-						Código - Categor ia Contábil
+						<CategoriaContabil>CÃ³digo</CategoriaContabil> <!--CÃ³digo da categoria contÃ¡bil, conforme Tabela ABAIXO. 
+						CÃ³digo - Categor ia ContÃ¡bil
 						RH - Recursos Humanos
-						ST - Serviços de Terceiros
+						ST - ServiÃ§os de Terceiros
 						MC - Materiais de Consumo
-						VD - Viagens e Diárias
+						VD - Viagens e DiÃ¡rias
 						OU - Outros
 						CT - CITENEL
-						AC - Auditoria Contábil e Financeira
-						*** JA EXISTE NO DB *** TTIPO_RECURSO *** necessário edição ou criação de nova
+						AC - Auditoria ContÃ¡bil e Financeira
+						*** JA EXISTE NO DB *** TTIPO_RECURSO *** necessÃ¡rio ediÃ§Ã£o ou criaÃ§Ã£o de nova
 						-->
-						<CustoEmpresa>Moeda</CustoEmpresa> <!--Custo a investir pela Empresa na categoria contábil selecionada. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal.-->
+						<CustoEmpresa>Moeda</CustoEmpresa> <!--Custo a investir pela Empresa na categoria contÃ¡bil selecionada. Usar o ponto â€˜.â€™ como separador de milhar e a vÃ­rgula â€˜,â€™como separador decimal.-->
 					</CustoCatContabil>
 				</CustosContabeis>
 			</Empresa>
 		</Empresas>
 		<Atividades>
 			<Atividade>
-				<TipoAtividade>Código</TipoAtividade> <!--Código do tipo de atividade, conforme Tabela ABAIXO: 
-				Código	-	Tipo de Atividade	-	Categor ia Contábil Associada
-				HH	-	Dedicação horária dos membros da equipe de gestão do Programa de P&D da Empresa, quadro efetivo.	-	Recur sos Humanos.
-				EC	-	Participação dos membros da equipe de gestão em eventos sobre pesquisa, desenvolvimento e inovação relacionados ao setor elétrico e/ou em cursos de gestão tecnológica e da informação. - Custo previsto para inscrição em evento e custo previsto para inscrição/mensalidades em curso: "Outros." 	-	Custo previsto para passagens e diárias: "Viagens e Diárias."
-				FG	-	Desenvolvimento de ferramenta para gestão do Programa de P&D da Empresa, excluindose aquisição de equipamentos.	-	Serviços de Terceiros.
-				PP	-	Prospecção tecnológica e demais atividades necessárias ao planejamento e à elaboração do plano estratégico de investimento em P&D.	-	Custos previstos para os serviços a serem contratados: "Serviços de Terceiros". Custo previsto para passagens e diárias para membros da equipe de gestão: "Viagens e Diárias".
-				RP	-	Divulgação de resultados de projetos de P&D, concluídos e/ou em execução.	-	Custo previsto para elaboração de seminário/workshop: "Materiais de Consumo". Custo previsto para divulgação/publicação de resultados: "Outros."  Custo previsto para passagens e diárias: "Viagens e Diárias."
-				AP	-	Participação dos responsáveis técnicos pelos projetos de P&D nas avaliações presenciais convocadas pela ANEEL.	-	Viagens e Diárias.
+				<TipoAtividade>CÃ³digo</TipoAtividade> <!--CÃ³digo do tipo de atividade, conforme Tabela ABAIXO: 
+				CÃ³digo	-	Tipo de Atividade	-	Categor ia ContÃ¡bil Associada
+				HH	-	DedicaÃ§Ã£o horÃ¡ria dos membros da equipe de gestÃ£o do Programa de P&D da Empresa, quadro efetivo.	-	Recur sos Humanos.
+				EC	-	ParticipaÃ§Ã£o dos membros da equipe de gestÃ£o em eventos sobre pesquisa, desenvolvimento e inovaÃ§Ã£o relacionados ao setor elÃ©trico e/ou em cursos de gestÃ£o tecnolÃ³gica e da informaÃ§Ã£o. - Custo previsto para inscriÃ§Ã£o em evento e custo previsto para inscriÃ§Ã£o/mensalidades em curso: "Outros." 	-	Custo previsto para passagens e diÃ¡rias: "Viagens e DiÃ¡rias."
+				FG	-	Desenvolvimento de ferramenta para gestÃ£o do Programa de P&D da Empresa, excluindose aquisiÃ§Ã£o de equipamentos.	-	ServiÃ§os de Terceiros.
+				PP	-	ProspecÃ§Ã£o tecnolÃ³gica e demais atividades necessÃ¡rias ao planejamento e Ã  elaboraÃ§Ã£o do plano estratÃ©gico de investimento em P&D.	-	Custos previstos para os serviÃ§os a serem contratados: "ServiÃ§os de Terceiros". Custo previsto para passagens e diÃ¡rias para membros da equipe de gestÃ£o: "Viagens e DiÃ¡rias".
+				RP	-	DivulgaÃ§Ã£o de resultados de projetos de P&D, concluÃ­dos e/ou em execuÃ§Ã£o.	-	Custo previsto para elaboraÃ§Ã£o de seminÃ¡rio/workshop: "Materiais de Consumo". Custo previsto para divulgaÃ§Ã£o/publicaÃ§Ã£o de resultados: "Outros."  Custo previsto para passagens e diÃ¡rias: "Viagens e DiÃ¡rias."
+				AP	-	ParticipaÃ§Ã£o dos responsÃ¡veis tÃ©cnicos pelos projetos de P&D nas avaliaÃ§Ãµes presenciais convocadas pela ANEEL.	-	Viagens e DiÃ¡rias.
 				BA	-	Buscas de anterioridade no Instituto Nacional da Propriedade Industrial (INPI).	-	Outros.
-				CA	-	Contratação de auditoria contábil e financeira para os projetos concluídos.	-	Auditor ia Contábil e Financeira.
-				AC	-	Apoio à realização do CITENEL.	-	CITENEL.
+				CA	-	ContrataÃ§Ã£o de auditoria contÃ¡bil e financeira para os projetos concluÃ­dos.	-	Auditor ia ContÃ¡bil e Financeira.
+				AC	-	Apoio Ã  realizaÃ§Ã£o do CITENEL.	-	CITENEL.
 				-->
-				<DescAtividade>Texto</DescAtividade> <!--Descrição, sucinta, das ações a serem realizadas pela(s) Empresa(s) na atividade selecionada (até 1.000 caracteres).-->
-				<CustoAtividade>Moeda</CustoAtividade> <!--Valor a ser aplicado pela(s) Empresa(s) na atividade selecionada. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal.-->
+				<DescAtividade>Texto</DescAtividade> <!--DescriÃ§Ã£o, sucinta, das aÃ§Ãµes a serem realizadas pela(s) Empresa(s) na atividade selecionada (atÃ© 1.000 caracteres).-->
+				<CustoAtividade>Moeda</CustoAtividade> <!--Valor a ser aplicado pela(s) Empresa(s) na atividade selecionada. Usar o ponto â€˜.â€™ como separador de milhar e a vÃ­rgula â€˜,â€™como separador decimal.-->
 			</Atividade>
 		</Atividades>
-		<Duracao>Número</Duracao> <!--Duração, em meses, para execução do Projeto de Gestão (duração máxima: 12).-->
-		<CpfGerente>Número</CpfGerente> <!--CPF do Gerente do Projeto de Gestão, dentre os membros já listados na equipe do projeto, no formato numérico 99999999999.-->
+		<Duracao>NÃºmero</Duracao> <!--DuraÃ§Ã£o, em meses, para execuÃ§Ã£o do Projeto de GestÃ£o (duraÃ§Ã£o mÃ¡xima: 12).-->
+		<CpfGerente>NÃºmero</CpfGerente> <!--CPF do Gerente do Projeto de GestÃ£o, dentre os membros jÃ¡ listados na equipe do projeto, no formato numÃ©rico 99999999999.-->
 	</PD_ProjetoGestao>
 </PED>

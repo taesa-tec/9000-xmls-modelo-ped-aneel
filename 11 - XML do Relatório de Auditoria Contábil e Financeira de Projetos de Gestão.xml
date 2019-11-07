@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="ISO8859-1"?>
-<PED Tipo="RELATORIOAUDITORIAGESTAO" CodigoEmpresa="0CÓDIGO DA EMPRESA PARA ENVIO DE INFORMAÇÕES VIA DUTO">
+<?xml version="1.0" encoding="UTF-8"?>
+<PED Tipo="RELATORIOAUDITORIAGESTAO" CodigoEmpresa="0CÃ“DIGO DA EMPRESA PARA ENVIO DE INFORMAÃ‡Ã•ES VIA DUTO">
 	<PD_RelAuditoriaPG>
-		<CodProjeto>Código</CodProjeto> <!--Código do Projeto de Gestão, conforme cadastrado no Sistema de Gestão de P&D ANEEL.-->
-		<ArquivoPDF>Texto</ArquivoPDF> <!-- Nome do arquivo em formato PDF do Relatório Final do Projeto de P&D, conforme APLPED'num_aneel_empresa'_'Tipo_arquivo'_'num_aneel_proj'_S'ordem_envio'.PDF , ex: APLPED4950_RELATORIOAUDITORIAGESTAO_0002_S01.PDF -->
-		<CustoTotal>Moeda</CustoTotal> <!-- Custo de execução do Projeto de Gestão. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal. -->
-		<RecursoEmpresa> <!-- ##Repetir## "RecursoEmpresa" quantas vezes forem necessários para identificar todas as empresas de energia elétrica que financiaram a execução do Projeto de Gestão -->
-			<CodEmpresa>Número</CodEmpresa> <!--Código da empresa de energia elétrica, para envio de informações via DUTO, financiadora de recursos no Projeto de Gestão, no formato numérico 9999 -->
-			<CustoCatContabil> <!-- ##Repetir## tantas vezes quantas forem necessárias para identificar todas as Rubricas 
-							Código - Categoria Contábil
+		<CodProjeto>CÃ³digo</CodProjeto> <!--CÃ³digo do Projeto de GestÃ£o, conforme cadastrado no Sistema de GestÃ£o de P&D ANEEL.-->
+		<ArquivoPDF>Texto</ArquivoPDF> <!-- Nome do arquivo em formato PDF do RelatÃ³rio Final do Projeto de P&D, conforme APLPED'num_aneel_empresa'_'Tipo_arquivo'_'num_aneel_proj'_S'ordem_envio'.PDF , ex: APLPED4950_RELATORIOAUDITORIAGESTAO_0002_S01.PDF -->
+		<CustoTotal>Moeda</CustoTotal> <!-- Custo de execuÃ§Ã£o do Projeto de GestÃ£o. Usar o ponto â€˜.â€™ como separador de milhar e a vÃ­rgula â€˜,â€™como separador decimal. -->
+		<RecursoEmpresa> <!-- ##Repetir## "RecursoEmpresa" quantas vezes forem necessÃ¡rios para identificar todas as empresas de energia elÃ©trica que financiaram a execuÃ§Ã£o do Projeto de GestÃ£o -->
+			<CodEmpresa>NÃºmero</CodEmpresa> <!--CÃ³digo da empresa de energia elÃ©trica, para envio de informaÃ§Ãµes via DUTO, financiadora de recursos no Projeto de GestÃ£o, no formato numÃ©rico 9999 -->
+			<CustoCatContabil> <!-- ##Repetir## tantas vezes quantas forem necessÃ¡rias para identificar todas as Rubricas 
+							CÃ³digo - Categoria ContÃ¡bil
 							RH - Recursos Humanos
-							ST - Serviços de Terceiros
+							ST - ServiÃ§os de Terceiros
 							MC - Materiais de Consumo
 							MP - Materiais Permanentes e Equipamentos
-							VD - Viagens e Diárias
+							VD - Viagens e DiÃ¡rias
 							OU - Outros
 							-->
-				<CatContabil>Código</CatContabil> <!--  Código da categoria contábil, conforme Tabela abaixo, custeada pela empresa de energia elétrica selecionada. -->
-				<CustoEmpresa>Moeda</CustoEmpresa> <!--  Valor dos recursos reconhecidos pela Auditoria custeados pela empresa de energia elétrica na categoria contábil selecionada. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal -->
+				<CatContabil>CÃ³digo</CatContabil> <!--  CÃ³digo da categoria contÃ¡bil, conforme Tabela abaixo, custeada pela empresa de energia elÃ©trica selecionada. -->
+				<CustoEmpresa>Moeda</CustoEmpresa> <!--  Valor dos recursos reconhecidos pela Auditoria custeados pela empresa de energia elÃ©trica na categoria contÃ¡bil selecionada. Usar o ponto â€˜.â€™ como separador de milhar e a vÃ­rgula â€˜,â€™como separador decimal -->
 			</CustoCatContabil>
 		</RecursoEmpresa>
 	</PD_RelAuditoriaPG>

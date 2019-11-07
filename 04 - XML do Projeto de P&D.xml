@@ -1,127 +1,127 @@
-<?xml version="1.0" encoding="ISO8859-1"?>
-<PED Tipo="PROJETOPED" CodigoEmpresa="0CÓDIGO DA EMPRESA PARA ENVIO DE INFORMAÇÕES VIA DUTO">
+<?xml version="1.0" encoding="UTF-8"?>
+<PED Tipo="PROJETOPED" CodigoEmpresa="0CÃ“DIGO DA EMPRESA PARA ENVIO DE INFORMAÃ‡Ã•ES VIA DUTO">
 	<PD_ProjetoBase>
-		<AvIniANEEL>Letra</AvIniANEEL> <!--Interesse da Empresa em que a ANEEL proceda a avaliação inicial do projeto: S (Sim); N (Não).-->
-		<Titulo>Texto</Titulo> <!--Título do projeto (até 200 caracteres).-->
-		<Duracao>Número</Duracao> <!--Duração, em meses, para execução do Projeto de P&D (duração máxima: 60).-->
-		<Segmento>Letra</Segmento> <!--Segmento principal da pesquisa no projeto: G (Geração); T (Transmissão); D (Distribuição); C (Comercialização).-->
-		<CodTema>Código</CodTema> <!--Código do tema para investimentos em P&D, dentre os listados no portal da ANEEL 
+		<AvIniANEEL>Letra</AvIniANEEL> <!--Interesse da Empresa em que a ANEEL proceda a avaliaÃ§Ã£o inicial do projeto: S (Sim); N (NÃ£o).-->
+		<Titulo>Texto</Titulo> <!--TÃ­tulo do projeto (atÃ© 200 caracteres).-->
+		<Duracao>NÃºmero</Duracao> <!--DuraÃ§Ã£o, em meses, para execuÃ§Ã£o do Projeto de P&D (duraÃ§Ã£o mÃ¡xima: 60).-->
+		<Segmento>Letra</Segmento> <!--Segmento principal da pesquisa no projeto: G (GeraÃ§Ã£o); T (TransmissÃ£o); D (DistribuiÃ§Ã£o); C (ComercializaÃ§Ã£o).-->
+		<CodTema>CÃ³digo</CodTema> <!--CÃ³digo do tema para investimentos em P&D, dentre os listados no portal da ANEEL 
 		*** Listados na tabela TTEMA_ANEEL *** -->
-		<OutroTema>Texto</OutroTema> <!--###Preenchiumento OPCIONAL### MANTER A TAG, NAO REMOVER ### Caso o tema selecionado seja “Outro” na tabela TTEMA_ANEEL, sugerir o tema proposto (até 200 caracteres).-->
+		<OutroTema>Texto</OutroTema> <!--###Preenchiumento OPCIONAL### MANTER A TAG, NAO REMOVER ### Caso o tema selecionado seja â€œOutroâ€ na tabela TTEMA_ANEEL, sugerir o tema proposto (atÃ© 200 caracteres).-->
 		<Subtemas>
 			<Subtema>
-				<CodSubtema>Código</CodSubtema> <!--Código do subtema de pesquisa, dentre os listados no portal da ANEEL.
-				*** listados na tabela TDEMANDA_ANEEL (não mostrar na lista SE 'NUM_ID_DEMANDA_ANEEL' > '80') -->
-				<OutroSubtema>Texto</OutroSubtema> <!--###Preenchiumento OPCIONAL### MANTER A TAG, NAO REMOVER ### Caso o subtema selecionado seja “Outro” na tabela TDEMANDA_ANEEL, sugerir o subtema proposto (até 200 caracteres).-->
+				<CodSubtema>CÃ³digo</CodSubtema> <!--CÃ³digo do subtema de pesquisa, dentre os listados no portal da ANEEL.
+				*** listados na tabela TDEMANDA_ANEEL (nÃ£o mostrar na lista SE 'NUM_ID_DEMANDA_ANEEL' > '80') -->
+				<OutroSubtema>Texto</OutroSubtema> <!--###Preenchiumento OPCIONAL### MANTER A TAG, NAO REMOVER ### Caso o subtema selecionado seja â€œOutroâ€ na tabela TDEMANDA_ANEEL, sugerir o subtema proposto (atÃ© 200 caracteres).-->
 			</Subtema>
 		</Subtemas>
-		<FaseInovacao>Código</FaseInovacao> <!--Código da fase da cadeia da inovação do projeto, conforme Tabela ABAIXO:
-		Código	-	Fase da Cadeia da Inovação
-		PB	-	Pesquisa Básica Dirigida
+		<FaseInovacao>CÃ³digo</FaseInovacao> <!--CÃ³digo da fase da cadeia da inovaÃ§Ã£o do projeto, conforme Tabela ABAIXO:
+		CÃ³digo	-	Fase da Cadeia da InovaÃ§Ã£o
+		PB	-	Pesquisa BÃ¡sica Dirigida
 		PA	-	Pesquisa Aplicada
 		DE	-	Desenvolvimento Experimental
-		CS	-	Cabeça de série
+		CS	-	CabeÃ§a de sÃ©rie
 		LP	-	Lote Pioneiro
-		IM	-	Inserção no Mercado
+		IM	-	InserÃ§Ã£o no Mercado
 		*** JA EXISTE NO DB *** TFASE_INOVACAO ***
 		-->
-		<TipoProduto>Código</TipoProduto> <!--Código do tipo de produto principal do projeto, conforme Tabela ABAIXO.
-		Código	-	Tipo de Produto
+		<TipoProduto>CÃ³digo</TipoProduto> <!--CÃ³digo do tipo de produto principal do projeto, conforme Tabela ABAIXO.
+		CÃ³digo	-	Tipo de Produto
 		CM	-	Conceito ou Metodologia
 		SW	-	Software
 		SM	-	Sistema
-		MS	-	Material ou Substância
+		MS	-	Material ou SubstÃ¢ncia
 		CD	-	Componente ou Dispositivo
-		ME	-	Máquina ou Equipamento
-		*** JA EXISTE NO DB *** TTIPO_PRODUTO *** Exige edição ou criação de uma nova ***
+		ME	-	MÃ¡quina ou Equipamento
+		*** JA EXISTE NO DB *** TTIPO_PRODUTO *** Exige ediÃ§Ã£o ou criaÃ§Ã£o de uma nova ***
 		-->
-		<DescricaoProduto>Texto</DescricaoProduto> <!--Descrição, sucinta, do produto principal esperado do projeto (até 300 caracteres).-->
-		<Motivacao>Texto</Motivacao> <!--Descrição, sucinta, das justificativas para proposição do projeto (até 1.000 caracteres). Identificar, se houver, alternativa de alto custo similar.-->
-		<Originalidade>Texto</Originalidade> <!--Descrição da originalidade do produto principal do projeto, em relação ao estado da arte, com foco no setor elétrico brasileiro (até 2.000 caracteres)
+		<DescricaoProduto>Texto</DescricaoProduto> <!--DescriÃ§Ã£o, sucinta, do produto principal esperado do projeto (atÃ© 300 caracteres).-->
+		<Motivacao>Texto</Motivacao> <!--DescriÃ§Ã£o, sucinta, das justificativas para proposiÃ§Ã£o do projeto (atÃ© 1.000 caracteres). Identificar, se houver, alternativa de alto custo similar.-->
+		<Originalidade>Texto</Originalidade> <!--DescriÃ§Ã£o da originalidade do produto principal do projeto, em relaÃ§Ã£o ao estado da arte, com foco no setor elÃ©trico brasileiro (atÃ© 2.000 caracteres)
 		*** JA EXISTE NO DB *** TIDENTIFICACAO_PROPOSTA > DES_ORIGINALIDADE *** 
 		-->
-		<Aplicabilidade>Texto</Aplicabilidade> <!--Descrição do âmbito e abrangência de aplicação do produto principal do projeto (até 2.000 caracteres)
+		<Aplicabilidade>Texto</Aplicabilidade> <!--DescriÃ§Ã£o do Ã¢mbito e abrangÃªncia de aplicaÃ§Ã£o do produto principal do projeto (atÃ© 2.000 caracteres)
 		*** JA EXISTE NO DB *** TIDENTIFICACAO_PROPOSTA > DES_APLICABILIDADE *** 
 		-->
-		<Relevancia>Texto</Relevancia> <!--Descrição da relevância do produto para as entidades participantes do projeto e o setor elétrico brasileiro (até 2.000 caracteres)
+		<Relevancia>Texto</Relevancia> <!--DescriÃ§Ã£o da relevÃ¢ncia do produto para as entidades participantes do projeto e o setor elÃ©trico brasileiro (atÃ© 2.000 caracteres)
 		*** JA EXISTE NO DB *** TIDENTIFICACAO_PROPOSTA > DES_RELEVANCIA *** 
 		-->
-		<RazoabCustos>Texto</RazoabCustos> <!--Descrição do estudo de viabilidade econômica do projeto (até 2.000 caracteres).-->
-		<PesqCorrelata>Texto</PesqCorrelata> <!--Listagem de pesquisas correlatas a este Projeto de P&D (até 1.000 caracteres)
+		<RazoabCustos>Texto</RazoabCustos> <!--DescriÃ§Ã£o do estudo de viabilidade econÃ´mica do projeto (atÃ© 2.000 caracteres).-->
+		<PesqCorrelata>Texto</PesqCorrelata> <!--Listagem de pesquisas correlatas a este Projeto de P&D (atÃ© 1.000 caracteres)
 		*** JA EXISTE NO DB *** TIDENTIFICACAO_PROPOSTA > DES_PESQUISAS_CORRELATAS ***
 		-->
 	</PD_ProjetoBase>
 	<PD_Equipe>
 		<Empresas>
-			<Empresa> <!-- %%%repetido se necessário%%% Empresas de energia elétrica - Deverá haver apenas uma Empresa Proponente -->
-				<CodEmpresa>Número</CodEmpresa> <!-- Código da Empresa para envio de informações via DUTO, no formato numérico 9999.  -->
+			<Empresa> <!-- %%%repetido se necessÃ¡rio%%% Empresas de energia elÃ©trica - DeverÃ¡ haver apenas uma Empresa Proponente -->
+				<CodEmpresa>NÃºmero</CodEmpresa> <!-- CÃ³digo da Empresa para envio de informaÃ§Ãµes via DUTO, no formato numÃ©rico 9999.  -->
 				<TipoEmpresa>Letra</TipoEmpresa> <!--Tipo da Empresa: P (proponente); C (cooperada) -->
 				<Equipe>
-					<EquipeEmpresa> <!-- %%%repetido se necessário%%% para identificar todos os membros de uma determinada empresa de energia elétrica -->
+					<EquipeEmpresa> <!-- %%%repetido se necessÃ¡rio%%% para identificar todos os membros de uma determinada empresa de energia elÃ©trica -->
 						<NomeMbEqEmp>Texto</NomeMbEqEmp> <!--Nome completo, conforme cadastrado na Plataforma LATTES do CNPq, de membro da Empresa no Projeto de P&D.-->
-						<CpfMbEqEmp>Número</CpfMbEqEmp> <!--CPF do membro da Empresa selecionado, no formato numérico 99999999999.-->
-						<TitulacaoMbEqEmp>Código</TitulacaoMbEqEmp> <!--Código da titulação do membro da Empresa selecionado, conforme Tabela ABAIXO
-						Código	-	Titulação
+						<CpfMbEqEmp>NÃºmero</CpfMbEqEmp> <!--CPF do membro da Empresa selecionado, no formato numÃ©rico 99999999999.-->
+						<TitulacaoMbEqEmp>CÃ³digo</TitulacaoMbEqEmp> <!--CÃ³digo da titulaÃ§Ã£o do membro da Empresa selecionado, conforme Tabela ABAIXO
+						CÃ³digo	-	TitulaÃ§Ã£o
 						DO	-	Doutor
 						ME	-	Mestre
 						ES	-	Especialista
 						SU	-	Superior
-						TE	-	Técnico
-						*** JA EXISTE NO DB *** TCATEGORIA_PARTICIPANTE ** mas precisa de edição ou criação de uma nova
+						TE	-	TÃ©cnico
+						*** JA EXISTE NO DB *** TCATEGORIA_PARTICIPANTE ** mas precisa de ediÃ§Ã£o ou criaÃ§Ã£o de uma nova
 						-->	
-						<FuncaoMbEqEmp>Código</FuncaoMbEqEmp> <!--Código da função do membro da Empresa selecionado, conforme Tabela ABAIXO
-						Código	-	Função
+						<FuncaoMbEqEmp>CÃ³digo</FuncaoMbEqEmp> <!--CÃ³digo da funÃ§Ã£o do membro da Empresa selecionado, conforme Tabela ABAIXO
+						CÃ³digo	-	FunÃ§Ã£o
 						CO	-	Coordenador
 						GE	-	Gerente
 						PE	-	Pesquisador
-						AT	-	Auxiliar Técnico
-						AB	-	Auxiliar Técnico Bolsista
+						AT	-	Auxiliar TÃ©cnico
+						AB	-	Auxiliar TÃ©cnico Bolsista
 						AA	-	Auxiliar Administrativo
-						*** JA EXISTE NO DB *** TFUNCAO_PARTICIPANTE ** mas precisa de edição ou criação de uma nova
+						*** JA EXISTE NO DB *** TFUNCAO_PARTICIPANTE ** mas precisa de ediÃ§Ã£o ou criaÃ§Ã£o de uma nova
 						-->
 					</EquipeEmpresa>
 				</Equipe>
 			</Empresa>
 		</Empresas>
 		<Executoras>
-			<Executora> <!-- %%%repetido se necessário%%% relativas às entidades executoras do Projeto 
+			<Executora> <!-- %%%repetido se necessÃ¡rio%%% relativas Ã s entidades executoras do Projeto 
 			&&&&EXCLUIR esta tag e interiores se vazio&&&& -->
-			<CNPJExec>Número</CNPJExec> <!--CNPJ de entidade executora no Projeto de P&D, no formato numérico 99999999999999
-			*** JA EXISTE NO DB *** TENTIDADE > NUM_CNPJ *** TALVEZ não esteja correto, AVALIAR uso.
+			<CNPJExec>NÃºmero</CNPJExec> <!--CNPJ de entidade executora no Projeto de P&D, no formato numÃ©rico 99999999999999
+			*** JA EXISTE NO DB *** TENTIDADE > NUM_CNPJ *** TALVEZ nÃ£o esteja correto, AVALIAR uso.
 			-->
-			<RazaoSocialExec>Texto</RazaoSocialExec> <!--Razão social da entidade executora selecionada: Nome completo, conforme cadastrado no Ministério da Fazenda.
-			*** JA EXISTE NO DB *** TENTIDADE > NOM_ENTIDADE *** TALVEZ não esteja correto, AVALIAR uso.
+			<RazaoSocialExec>Texto</RazaoSocialExec> <!--RazÃ£o social da entidade executora selecionada: Nome completo, conforme cadastrado no MinistÃ©rio da Fazenda.
+			*** JA EXISTE NO DB *** TENTIDADE > NOM_ENTIDADE *** TALVEZ nÃ£o esteja correto, AVALIAR uso.
 			-->
-			<UfExec>UF</UfExec> <!--Unidade da federação (UF) da entidade executora selecionada, conforme cadastrado no Ministério da Fazenda.
+			<UfExec>UF</UfExec> <!--Unidade da federaÃ§Ã£o (UF) da entidade executora selecionada, conforme cadastrado no MinistÃ©rio da Fazenda.
 			*** JA EXISTE NO DB *** TENTIDADE > NUM_ID_MUNICIPIO - Vinculado a TMUNICIPIO > NUM_ID_ESTADO - Vinculado a TESTADO > SIG_ESTADO ***
 			-->
 				<Equipe>
-					<EquipeExec> <!-- %%%repetido se necessário%%%  relativos aos membros da entidade executora -->
+					<EquipeExec> <!-- %%%repetido se necessÃ¡rio%%%  relativos aos membros da entidade executora -->
 						<NomeMbEqExec>Texto</NomeMbEqExec> <!--Nome completo, conforme cadastrado na Plataforma LATTES do CNPq, de membro de entidade executora no Projeto de P&D.
 						*** JA EXISTE NO DB *** TRECURSO_RH > NOM_RECURSO ***
 						-->
-						<BRMbEqExec>Letra</BRMbEqExec> <!--Membro da entidade executora selecionado tem nacionalidade brasileira: S (Sim); N (Não).-->
-						<DocMbEqExec>Texto</DocMbEqExec> <!--Número de documento do membro da entidade executora selecionado: CPF no formato numérico 99999999999, se brasileiro; ou Passaporte com até 20 caracteres se nao for brasileiro
+						<BRMbEqExec>Letra</BRMbEqExec> <!--Membro da entidade executora selecionado tem nacionalidade brasileira: S (Sim); N (NÃ£o).-->
+						<DocMbEqExec>Texto</DocMbEqExec> <!--NÃºmero de documento do membro da entidade executora selecionado: CPF no formato numÃ©rico 99999999999, se brasileiro; ou Passaporte com atÃ© 20 caracteres se nao for brasileiro
 						*** JA EXISTE NO DB *** TRECURSO_RH > NUM_CPF ***
 						-->
-						<TitulacaoMbEqExec>Código</TitulacaoMbEqExec> <!--Código da titulação do membro da entidade executora selecionado, conforme Tabela ABAIXO
-						Código	-	Titulação
+						<TitulacaoMbEqExec>CÃ³digo</TitulacaoMbEqExec> <!--CÃ³digo da titulaÃ§Ã£o do membro da entidade executora selecionado, conforme Tabela ABAIXO
+						CÃ³digo	-	TitulaÃ§Ã£o
 						DO	-	Doutor
 						ME	-	Mestre
 						ES	-	Especialista
 						SU	-	Superior
-						TE	-	Técnico
-						*** JA EXISTE NO DB *** TCATEGORIA_PARTICIPANTE ** mas precisa de edição ou criação de uma nova *** (o dado pode ser adquirido automaticamente pela tabela TRECURSO_RH > COD_TITULACAO vinculada a TCATEGORIA_PARTICIPANTE) ***					
+						TE	-	TÃ©cnico
+						*** JA EXISTE NO DB *** TCATEGORIA_PARTICIPANTE ** mas precisa de ediÃ§Ã£o ou criaÃ§Ã£o de uma nova *** (o dado pode ser adquirido automaticamente pela tabela TRECURSO_RH > COD_TITULACAO vinculada a TCATEGORIA_PARTICIPANTE) ***					
 						-->
-						<FuncaoMbEqExec>Código</FuncaoMbEqExec> <!--Código da função do membro da entidade executora selecionado, conforme Tabela ABAIXO 
-						Código	-	Função
+						<FuncaoMbEqExec>CÃ³digo</FuncaoMbEqExec> <!--CÃ³digo da funÃ§Ã£o do membro da entidade executora selecionado, conforme Tabela ABAIXO 
+						CÃ³digo	-	FunÃ§Ã£o
 						CO	-	Coordenador
 						GE	-	Gerente
 						PE	-	Pesquisador
-						AT	-	Auxiliar Técnico
-						AB	-	Auxiliar Técnico Bolsista
+						AT	-	Auxiliar TÃ©cnico
+						AB	-	Auxiliar TÃ©cnico Bolsista
 						AA	-	Auxiliar Administrativo
-						*** JA EXISTE NO DB *** TFUNCAO_PARTICIPANTE ** mas precisa de edição ou criação de uma nova (o dado pode ser adquirido automaticamente pela tabela TRECURSO_RH > COD_FUNCAO vinculada a TFUNCAO_PARTICIPANTE) ***
+						*** JA EXISTE NO DB *** TFUNCAO_PARTICIPANTE ** mas precisa de ediÃ§Ã£o ou criaÃ§Ã£o de uma nova (o dado pode ser adquirido automaticamente pela tabela TRECURSO_RH > COD_FUNCAO vinculada a TFUNCAO_PARTICIPANTE) ***
 						-->
 					</EquipeExec>
 				</Equipe>
@@ -130,55 +130,55 @@
 	</PD_Equipe>
 	<PD_Recursos>
 		<RecursoEmpresa>
-			<CodEmpresa>Número</CodEmpresa> <!--Código da empresa de energia elétrica, financiadora de recursos no Projeto de P&D, para envio de informações via DUTO, no formato numérico 9999  -->
+			<CodEmpresa>NÃºmero</CodEmpresa> <!--CÃ³digo da empresa de energia elÃ©trica, financiadora de recursos no Projeto de P&D, para envio de informaÃ§Ãµes via DUTO, no formato numÃ©rico 9999  -->
 			<DestRecursosExec>
-				<CNPJExec>Número</CNPJExec> <!--CNPJ da entidade executora receptora de recursos no Projeto de P&D, no formato numérico 99999999999999 -->
+				<CNPJExec>NÃºmero</CNPJExec> <!--CNPJ da entidade executora receptora de recursos no Projeto de P&D, no formato numÃ©rico 99999999999999 -->
 				<CustoCatContabilExec>
-					<CatContabil>Código</CatContabil> <!--Código da categoria contábil, conforme Tabela ABAIXO, custeada para a entidade executora selecionada.
-					Código	-	Categoria Contábil
+					<CatContabil>CÃ³digo</CatContabil> <!--CÃ³digo da categoria contÃ¡bil, conforme Tabela ABAIXO, custeada para a entidade executora selecionada.
+					CÃ³digo	-	Categoria ContÃ¡bil
 					RH	-	Recursos Humanos
-					ST	-	Serviços de Terceiros
+					ST	-	ServiÃ§os de Terceiros
 					MC	-	Materiais de Consumo
 					MP	-	Materiais Permanentes e Equipamentos
-					VD	-	Viagens e Diárias
+					VD	-	Viagens e DiÃ¡rias
 					OU	-	Outros
-					*** JA EXISTE NO DB *** TTIPO_RECURSO *** necessário edição ou criação de nova
+					*** JA EXISTE NO DB *** TTIPO_RECURSO *** necessÃ¡rio ediÃ§Ã£o ou criaÃ§Ã£o de nova
 					-->
-					<CustoExec>Moeda</CustoExec> <!--Valor dos recursos reconhecidos pela Auditoria recebidos pela entidade executora na categoria contábil selecionada. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal.-->
+					<CustoExec>Moeda</CustoExec> <!--Valor dos recursos reconhecidos pela Auditoria recebidos pela entidade executora na categoria contÃ¡bil selecionada. Usar o ponto â€˜.â€™ como separador de milhar e a vÃ­rgula â€˜,â€™como separador decimal.-->
 				</CustoCatContabilExec>
 			</DestRecursosExec>
 			<DestRecursosEmp>
 				<CustoCatContabilEmp>
-					<CatContabil>Código</CatContabil> <!--Código da categoria contábil, conforme Tabela ABAIXO, custeada para a própria empresa de energia elétrica 
-					Código	-	Categoria Contábil
+					<CatContabil>CÃ³digo</CatContabil> <!--CÃ³digo da categoria contÃ¡bil, conforme Tabela ABAIXO, custeada para a prÃ³pria empresa de energia elÃ©trica 
+					CÃ³digo	-	Categoria ContÃ¡bil
 					RH	-	Recursos Humanos
-					ST	-	Serviços de Terceiros
+					ST	-	ServiÃ§os de Terceiros
 					MC	-	Materiais de Consumo
 					MP	-	Materiais Permanentes e Equipamentos
-					VD	-	Viagens e Diárias
+					VD	-	Viagens e DiÃ¡rias
 					OU	-	Outros
-					*** JA EXISTE NO DB *** TTIPO_RECURSO *** necessário edição ou criação de nova
+					*** JA EXISTE NO DB *** TTIPO_RECURSO *** necessÃ¡rio ediÃ§Ã£o ou criaÃ§Ã£o de nova
 					-->
-					<CustoEmp>Moeda</CustoEmp> <!--Valor dos recursos reconhecidos pela Auditoria recebidos pela própria empresa de energia elétrica na categoria contábil selecionada. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal.-->
+					<CustoEmp>Moeda</CustoEmp> <!--Valor dos recursos reconhecidos pela Auditoria recebidos pela prÃ³pria empresa de energia elÃ©trica na categoria contÃ¡bil selecionada. Usar o ponto â€˜.â€™ como separador de milhar e a vÃ­rgula â€˜,â€™como separador decimal.-->
 				</CustoCatContabilEmp>
 			</DestRecursosEmp>
 		</RecursoEmpresa>
-		<RecursoParceira> <!-- fluxo financeiro que não são gerenciaveis pela empresa de energia -->
-			<CNPJParc>Número</CNPJParc> <!--CNPJ da entidade parceira financiadora de recursos no Projeto de P&D, no formato numérico 99999999999999 -->
+		<RecursoParceira> <!-- fluxo financeiro que nÃ£o sÃ£o gerenciaveis pela empresa de energia -->
+			<CNPJParc>NÃºmero</CNPJParc> <!--CNPJ da entidade parceira financiadora de recursos no Projeto de P&D, no formato numÃ©rico 99999999999999 -->
 			<DestRecursosExec>
-				<CNPJExec>Número</CNPJExec> <!--CNPJ da entidade executora receptora de recursos no Projeto de P&D, no formato numérico 99999999999999 -->
+				<CNPJExec>NÃºmero</CNPJExec> <!--CNPJ da entidade executora receptora de recursos no Projeto de P&D, no formato numÃ©rico 99999999999999 -->
 				<CustoCatContabilExec>
-					<CatContabil>Código</CatContabil> <!--Código da categoria contábil, conforme Tabela ABAIXO, 
-					Código	-	Categoria Contábil
+					<CatContabil>CÃ³digo</CatContabil> <!--CÃ³digo da categoria contÃ¡bil, conforme Tabela ABAIXO, 
+					CÃ³digo	-	Categoria ContÃ¡bil
 					RH	-	Recursos Humanos
-					ST	-	Serviços de Terceiros
+					ST	-	ServiÃ§os de Terceiros
 					MC	-	Materiais de Consumo
 					MP	-	Materiais Permanentes e Equipamentos
-					VD	-	Viagens e Diárias
+					VD	-	Viagens e DiÃ¡rias
 					OU	-	Outros
-					*** JA EXISTE NO DB *** TTIPO_RECURSO *** necessário edição ou criação de nova
+					*** JA EXISTE NO DB *** TTIPO_RECURSO *** necessÃ¡rio ediÃ§Ã£o ou criaÃ§Ã£o de nova
 					-->
-					<CustoExec>Moeda</CustoExec> <!--Valor dos recursos repassados pela empresa parceira qualquer e enviados a epresa executora. recurso não gerenciado pela empresa de energia (CEMIG) - Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal.-->
+					<CustoExec>Moeda</CustoExec> <!--Valor dos recursos repassados pela empresa parceira qualquer e enviados a epresa executora. recurso nÃ£o gerenciado pela empresa de energia (CEMIG) - Usar o ponto â€˜.â€™ como separador de milhar e a vÃ­rgula â€˜,â€™como separador decimal.-->
 				</CustoCatContabilExec>
 			</DestRecursosExec>
 		</RecursoParceira>

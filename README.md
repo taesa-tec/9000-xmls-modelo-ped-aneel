@@ -1,8 +1,8 @@
 # Arquivos XML modelo do Programa de P&D para envio pelo Duto ANEEL
 
-- Todo XML deve ser codificado em ANSI, iniciado pelo encoding="ISO8859-1"
+- Todo XML deve ser codificado em ANSI, iniciado pelo encoding="UTF-8"
 
-- Todo XML deve ter na primeira linha o seguinte cabeçalho ```<?xml version="1.0" encoding="ISO8859-1"?>```
+- Todo XML deve ter na primeira linha o seguinte cabeçalho ```<?xml version="1.0" encoding="UTF-8"?>```
 
 - Todo XML deve ter na segunda linha o seguinte cabeçalho ```<PED Tipo="XX" CodigoEmpresa="YY">``` onde:
 

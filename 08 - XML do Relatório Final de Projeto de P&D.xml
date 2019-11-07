@@ -1,101 +1,101 @@
-<?xml version="1.0" encoding="ISO8859-1"?>
-<PED Tipo="RELATORIOFINALPED" CodigoEmpresa="0CÓDIGO DA EMPRESA PARA ENVIO DE INFORMAÇÕES VIA DUTO">
+<?xml version="1.0" encoding="UTF-8"?>
+<PED Tipo="RELATORIOFINALPED" CodigoEmpresa="0CÃ“DIGO DA EMPRESA PARA ENVIO DE INFORMAÃ‡Ã•ES VIA DUTO">
 	<PD_RelFinalBase>
-		<CodProjeto>Código</CodProjeto> <!-- Código do Projeto de P&D, conforme cadastrado no Sistema de Gestão de P&D ANEEL -->
-		<ArquivoPDF>Texto</ArquivoPDF> <!-- Nome do arquivo em formato PDF do Relatório Final do Projeto de P&D, conforme APLPED'num_aneel_empresa'_'Tipo_arquivo'_'num_aneel_proj'_S'ordem_envio'.PDF , ex: APLPED4950_RELATORIOFINALPED_0002_S01.PDF -->
-		<DataIniODS>Data</DataIniODS> <!--Data de início de execução (abertura da ODS) do Projeto de P&D, no formato numérico DDMMAAAA -->
-		<DataFimODS>Data</DataFimODS> <!-- Data de término de execução (fechamento da ODS) do Projeto de P&D, no formato numérico DDMMAAAA -->
-		<ProdPrev>Letra</ProdPrev> <!-- Produto principal previsto foi alcançado ou superado: S (Sim); N (Não). -->
-		<ProdJust>Texto</ProdJust> <!-- Justificativa pelo não alcance do produto principal previsto (até 1.000 caracteres) -->
-		<ProdEspTec>Texto</ProdEspTec> <!-- Especificação técnica do produto principal obtido (até 1.000 caracteres) -->
-		<TecPrev>Letra</TecPrev> <!-- Técnica prevista foi implementada: S (Sim); N (Não). -->
-		<TecJust>Texto</TecJust> <!-- Justificativa pela não implementação da técnica prevista (até 1.000 caracteres). -->
-		<TecDesc>Texto</TecDesc> <!-- Descrição, sucinta, da técnica empregada (até 1.000 caracteres). -->
-		<AplicPrev>Letra</AplicPrev> <!-- Aplicabilidade prevista foi alcançada ou superada: S (Sim); N (Não). -->
-		<AplicJust>Texto</AplicJust> <!-- Justificativa pelo não alcance da aplicabilidade prevista (até 1.000 caracteres). -->
-		<AplicFnc>Texto</AplicFnc> <!-- Descrição, sucinta, dos resultados dos testes de funcionalidade do produto principal e suas restrições (até 1.000 caracteres). -->
-		<AplicAbrang>Texto</AplicAbrang> <!-- Descrição da abrangência de aplicação do produto principal e suas restrições (até 1.000 caracteres). -->
-		<AplicAmbito>Texto</AplicAmbito> <!-- Descrição do âmbito de aplicação do produto principal e suas restrições (até 1.000 caracteres). -->
-		<TxDifTec>Texto</TxDifTec> <!-- Descrição, sucinta, das atividades relacionadas à transferência/difusão tecnológica (até 500 caracteres). -->
+		<CodProjeto>CÃ³digo</CodProjeto> <!-- CÃ³digo do Projeto de P&D, conforme cadastrado no Sistema de GestÃ£o de P&D ANEEL -->
+		<ArquivoPDF>Texto</ArquivoPDF> <!-- Nome do arquivo em formato PDF do RelatÃ³rio Final do Projeto de P&D, conforme APLPED'num_aneel_empresa'_'Tipo_arquivo'_'num_aneel_proj'_S'ordem_envio'.PDF , ex: APLPED4950_RELATORIOFINALPED_0002_S01.PDF -->
+		<DataIniODS>Data</DataIniODS> <!--Data de inÃ­cio de execuÃ§Ã£o (abertura da ODS) do Projeto de P&D, no formato numÃ©rico DDMMAAAA -->
+		<DataFimODS>Data</DataFimODS> <!-- Data de tÃ©rmino de execuÃ§Ã£o (fechamento da ODS) do Projeto de P&D, no formato numÃ©rico DDMMAAAA -->
+		<ProdPrev>Letra</ProdPrev> <!-- Produto principal previsto foi alcanÃ§ado ou superado: S (Sim); N (NÃ£o). -->
+		<ProdJust>Texto</ProdJust> <!-- Justificativa pelo nÃ£o alcance do produto principal previsto (atÃ© 1.000 caracteres) -->
+		<ProdEspTec>Texto</ProdEspTec> <!-- EspecificaÃ§Ã£o tÃ©cnica do produto principal obtido (atÃ© 1.000 caracteres) -->
+		<TecPrev>Letra</TecPrev> <!-- TÃ©cnica prevista foi implementada: S (Sim); N (NÃ£o). -->
+		<TecJust>Texto</TecJust> <!-- Justificativa pela nÃ£o implementaÃ§Ã£o da tÃ©cnica prevista (atÃ© 1.000 caracteres). -->
+		<TecDesc>Texto</TecDesc> <!-- DescriÃ§Ã£o, sucinta, da tÃ©cnica empregada (atÃ© 1.000 caracteres). -->
+		<AplicPrev>Letra</AplicPrev> <!-- Aplicabilidade prevista foi alcanÃ§ada ou superada: S (Sim); N (NÃ£o). -->
+		<AplicJust>Texto</AplicJust> <!-- Justificativa pelo nÃ£o alcance da aplicabilidade prevista (atÃ© 1.000 caracteres). -->
+		<AplicFnc>Texto</AplicFnc> <!-- DescriÃ§Ã£o, sucinta, dos resultados dos testes de funcionalidade do produto principal e suas restriÃ§Ãµes (atÃ© 1.000 caracteres). -->
+		<AplicAbrang>Texto</AplicAbrang> <!-- DescriÃ§Ã£o da abrangÃªncia de aplicaÃ§Ã£o do produto principal e suas restriÃ§Ãµes (atÃ© 1.000 caracteres). -->
+		<AplicAmbito>Texto</AplicAmbito> <!-- DescriÃ§Ã£o do Ã¢mbito de aplicaÃ§Ã£o do produto principal e suas restriÃ§Ãµes (atÃ© 1.000 caracteres). -->
+		<TxDifTec>Texto</TxDifTec> <!-- DescriÃ§Ã£o, sucinta, das atividades relacionadas Ã  transferÃªncia/difusÃ£o tecnolÃ³gica (atÃ© 500 caracteres). -->
 	</PD_RelFinalBase>
 	<PD_EquipeEmp>
 		<Empresas>
 			<Empresa>
-				<CodEmpresa>Número</CodEmpresa> <!-- Código da Empresa para envio de informações via DUTO, no formato numérico 9999.  -->
+				<CodEmpresa>NÃºmero</CodEmpresa> <!-- CÃ³digo da Empresa para envio de informaÃ§Ãµes via DUTO, no formato numÃ©rico 9999.  -->
 				<TipoEmpresa>Letra</TipoEmpresa> <!-- Tipo da Empresa: P (proponente); C (cooperada) 
-				*** (consultar XML de projeto com mesmo numero, boa parte dos dados  ja estão preenchidos em XML's antigos) --> 
+				*** (consultar XML de projeto com mesmo numero, boa parte dos dados  ja estÃ£o preenchidos em XML's antigos) --> 
 				<Equipe>
 					<EquipeEmpresa>
 						<NomeMbEqEmp>Texto</NomeMbEqEmp> <!-- Nome completo, conforme cadastrado na Plataforma LATTES do CNPq, de membro da Empresa no Projeto de P&D. 
 						*** JA EXISTE NO DB *** o dado pode ser adquirido automaticamente pela tabela TRECURSO_RH > NOM_RECURSO , mas o dado deve ser avaliado se realmente esta como a plataforma LATTES ***	
 						-->
-						<CpfMbEqEmp>Número</CpfMbEqEmp> <!-- CPF do membro da Empresa selecionado, no formato numérico 99999999999 -->
-						<TitulacaoMbEqEmp>Código</TitulacaoMbEqEmp> <!--Código da titulação do membro da membro da Empresa selecionado, conforme Tabela ABAIXO
-						Código	-	Titulação
+						<CpfMbEqEmp>NÃºmero</CpfMbEqEmp> <!-- CPF do membro da Empresa selecionado, no formato numÃ©rico 99999999999 -->
+						<TitulacaoMbEqEmp>CÃ³digo</TitulacaoMbEqEmp> <!--CÃ³digo da titulaÃ§Ã£o do membro da membro da Empresa selecionado, conforme Tabela ABAIXO
+						CÃ³digo	-	TitulaÃ§Ã£o
 						DO	-	Doutor
 						ME	-	Mestre
 						ES	-	Especialista
 						SU	-	Superior
-						TE	-	Técnico
-						*** JA EXISTE NO DB *** TCATEGORIA_PARTICIPANTE ** mas precisa de edição ou criação de uma nova *** (o dado pode ser adquirido automaticamente pela tabela TRECURSO_RH > COD_TITULACAO vinculada a TCATEGORIA_PARTICIPANTE) ***					
+						TE	-	TÃ©cnico
+						*** JA EXISTE NO DB *** TCATEGORIA_PARTICIPANTE ** mas precisa de ediÃ§Ã£o ou criaÃ§Ã£o de uma nova *** (o dado pode ser adquirido automaticamente pela tabela TRECURSO_RH > COD_TITULACAO vinculada a TCATEGORIA_PARTICIPANTE) ***					
 						-->
-						<FuncaoMbEqEmp>Código</FuncaoMbEqEmp> <!--Código da função do membro da membro da Empresa selecionado, conforme Tabela ABAIXO 
-						Código	-	Função
+						<FuncaoMbEqEmp>CÃ³digo</FuncaoMbEqEmp> <!--CÃ³digo da funÃ§Ã£o do membro da membro da Empresa selecionado, conforme Tabela ABAIXO 
+						CÃ³digo	-	FunÃ§Ã£o
 						CO	-	Coordenador
 						GE	-	Gerente
 						PE	-	Pesquisador
-						AT	-	Auxiliar Técnico
-						AB	-	Auxiliar Técnico Bolsista
+						AT	-	Auxiliar TÃ©cnico
+						AB	-	Auxiliar TÃ©cnico Bolsista
 						AA	-	Auxiliar Administrativo
-						*** JA EXISTE NO DB *** TFUNCAO_PARTICIPANTE ** mas precisa de edição ou criação de uma nova (o dado pode ser adquirido automaticamente pela tabela TRECURSO_RH > COD_FUNCAO vinculada a TFUNCAO_PARTICIPANTE) ***
+						*** JA EXISTE NO DB *** TFUNCAO_PARTICIPANTE ** mas precisa de ediÃ§Ã£o ou criaÃ§Ã£o de uma nova (o dado pode ser adquirido automaticamente pela tabela TRECURSO_RH > COD_FUNCAO vinculada a TFUNCAO_PARTICIPANTE) ***
 						-->
-						<HhMbEqEmp>Moeda</HhMbEqEmp> <!-- Valor da hora trabalhada do membro da Empresa selecionado. Usar a vírgula ‘,’ como separador decimal -->
- 						<MesMbEqEmp>Texto</MesMbEqEmp> <!-- Meses dedicados ao projeto, separados por vírgula, do membro da Empresa selecionado (limite de quantidade de vírgulas: duração do projeto 1; mês limite: duração do projeto). -->
-						<HoraMesMbEqEmp>Texto</HoraMesMbEqEmp> <!-- Quantidade de horas dedicadas ao projeto para cada mês de atuação (h/mês), separada por vírgula, do membro da Empresa selecionado (limite de quantidade de vírgulas: duração do projeto 1; limite h/mês: 160). -->
+						<HhMbEqEmp>Moeda</HhMbEqEmp> <!-- Valor da hora trabalhada do membro da Empresa selecionado. Usar a vÃ­rgula â€˜,â€™ como separador decimal -->
+ 						<MesMbEqEmp>Texto</MesMbEqEmp> <!-- Meses dedicados ao projeto, separados por vÃ­rgula, do membro da Empresa selecionado (limite de quantidade de vÃ­rgulas: duraÃ§Ã£o do projeto 1; mÃªs limite: duraÃ§Ã£o do projeto). -->
+						<HoraMesMbEqEmp>Texto</HoraMesMbEqEmp> <!-- Quantidade de horas dedicadas ao projeto para cada mÃªs de atuaÃ§Ã£o (h/mÃªs), separada por vÃ­rgula, do membro da Empresa selecionado (limite de quantidade de vÃ­rgulas: duraÃ§Ã£o do projeto 1; limite h/mÃªs: 160). -->
 					</EquipeEmpresa>
 				</Equipe>
 			</Empresa>
 		</Empresas>
 	</PD_EquipeEmp>
-	<PD_EquipeExec> <!-- Caso não haja entidade executora participante do Projeto de P&D, o conjunto das linhas de código XML deverá ser excluído do arquivo eletrônico -->
-		<Executoras> <!-- ##Repetir## tantas vezes quantas forem necessárias para identificar todas as entidades executoras que participam da execução do Projeto de P&D; -->
-			<Executora> <!-- ##Repetir## deverá ser repetido, sequencialmente, tantas vezes quantas forem necessárias para identificar todas as entidades executoras que participam da execução do Projeto de P&D -->
-			<CNPJExec>Número</CNPJExec> <!-- CNPJ de entidade executora no Projeto de P&D, no formato numérico 99999999999999 -->
-				<RazaoSocialExec>Texto</RazaoSocialExec> <!-- Razão social da entidade executora selecionada: Nome completo, conforme cadastrado no Ministério da Fazenda. -->
-				<UfExec>UF</UfExec> <!-- Unidade da federação (UF) da entidade executora selecionada, conforme cadastrado no Ministério da Fazenda 
+	<PD_EquipeExec> <!-- Caso nÃ£o haja entidade executora participante do Projeto de P&D, o conjunto das linhas de cÃ³digo XML deverÃ¡ ser excluÃ­do do arquivo eletrÃ´nico -->
+		<Executoras> <!-- ##Repetir## tantas vezes quantas forem necessÃ¡rias para identificar todas as entidades executoras que participam da execuÃ§Ã£o do Projeto de P&D; -->
+			<Executora> <!-- ##Repetir## deverÃ¡ ser repetido, sequencialmente, tantas vezes quantas forem necessÃ¡rias para identificar todas as entidades executoras que participam da execuÃ§Ã£o do Projeto de P&D -->
+			<CNPJExec>NÃºmero</CNPJExec> <!-- CNPJ de entidade executora no Projeto de P&D, no formato numÃ©rico 99999999999999 -->
+				<RazaoSocialExec>Texto</RazaoSocialExec> <!-- RazÃ£o social da entidade executora selecionada: Nome completo, conforme cadastrado no MinistÃ©rio da Fazenda. -->
+				<UfExec>UF</UfExec> <!-- Unidade da federaÃ§Ã£o (UF) da entidade executora selecionada, conforme cadastrado no MinistÃ©rio da Fazenda 
 				*** JA EXISTE NO DB *** tabela TESTADO ** 
 				-->
 				<Equipe>
-					<EquipeExec> <!-- ##Repetir## deverá ser repetido, sequencialmente, tantas vezes quantas forem necessárias para identificar todos os membros da entidade executora que compõem a equipe do Projeto de P&D. Deverá haver apenas um Coordenador no Projeto de P&D -->
+					<EquipeExec> <!-- ##Repetir## deverÃ¡ ser repetido, sequencialmente, tantas vezes quantas forem necessÃ¡rias para identificar todos os membros da entidade executora que compÃµem a equipe do Projeto de P&D. DeverÃ¡ haver apenas um Coordenador no Projeto de P&D -->
 						<NomeMbEqExec>Texto</NomeMbEqExec> <!-- Nome completo, conforme cadastrado na Plataforma LATTES do CNPq, de membro de entidade executora no Projeto de P&D. 
 						*** JA EXISTE NO DB *** TRECURSO_RH > NOM_RECURSO ** 
 						-->
-						<BRMbEqExec>Letra</BRMbEqExec> <!-- Membro da entidade executora selecionado tem nacionalidade brasileira: S (Sim); N (Não) -->
-						<DocMbEqExec>Texto</DocMbEqExec> <!-- Número de documento do membro da entidade executora selecionado: CPF no formato numérico 99999999999, se brasileiro; Passaporte com até 20 caracteres, caso contrário. 
+						<BRMbEqExec>Letra</BRMbEqExec> <!-- Membro da entidade executora selecionado tem nacionalidade brasileira: S (Sim); N (NÃ£o) -->
+						<DocMbEqExec>Texto</DocMbEqExec> <!-- NÃºmero de documento do membro da entidade executora selecionado: CPF no formato numÃ©rico 99999999999, se brasileiro; Passaporte com atÃ© 20 caracteres, caso contrÃ¡rio. 
 						*** JA EXISTE NO DB *** TRECURSO_RH > NUM_CPF ***
 						-->
-						<TitulacaoMbEqExec>Código</TitulacaoMbEqExec> <!-- Código da titulação do membro da entidade executora selecionado, conforme ABAIXO:
-						Código	-	Titulação
+						<TitulacaoMbEqExec>CÃ³digo</TitulacaoMbEqExec> <!-- CÃ³digo da titulaÃ§Ã£o do membro da entidade executora selecionado, conforme ABAIXO:
+						CÃ³digo	-	TitulaÃ§Ã£o
 						DO	-	Doutor
 						ME	-	Mestre
 						ES	-	Especialista
 						SU	-	Superior
-						TE	-	Técnico
-						*** JA EXISTE NO DB *** TCATEGORIA_PARTICIPANTE ** mas precisa de edição ou criação de uma nova
+						TE	-	TÃ©cnico
+						*** JA EXISTE NO DB *** TCATEGORIA_PARTICIPANTE ** mas precisa de ediÃ§Ã£o ou criaÃ§Ã£o de uma nova
 						-->	
-						<FuncaoMbEqExec>Código</FuncaoMbEqExec> <!-- Código da função do membro da entidade executora selecionado, conforme Tabela BAIXO
-						Código	-	Função
+						<FuncaoMbEqExec>CÃ³digo</FuncaoMbEqExec> <!-- CÃ³digo da funÃ§Ã£o do membro da entidade executora selecionado, conforme Tabela BAIXO
+						CÃ³digo	-	FunÃ§Ã£o
 						CO	-	Coordenador
 						GE	-	Gerente
 						PE	-	Pesquisador
-						AT	-	Auxiliar Técnico
-						AB	-	Auxiliar Técnico Bolsista
+						AT	-	Auxiliar TÃ©cnico
+						AB	-	Auxiliar TÃ©cnico Bolsista
 						AA	-	Auxiliar Administrativo
-						*** JA EXISTE NO DB *** TFUNCAO_PARTICIPANTE ** mas precisa de edição ou criação de uma nova
+						*** JA EXISTE NO DB *** TFUNCAO_PARTICIPANTE ** mas precisa de ediÃ§Ã£o ou criaÃ§Ã£o de uma nova
 						-->
-						<HhMbEqExec>Moeda</HhMbEqExec> <!-- Valor da hora trabalhada do membro da entidade executora selecionado. Usar a vírgula ‘,’ como separador decimal. -->
-						<MesMbEqExec>Texto</MesMbEqExec> <!-- Meses dedicados ao projeto, separados por vírgula, do membro da entidade executora selecionado (limite de quantidade de vírgulas: duração do projeto 1; mês limite: duração do projeto). -->
-						<HoraMesMbEqExec>Texto</HoraMesMbEqExec> <!-- Quantidade de horas dedicadas ao projeto para cada mês de atuação, separada por vírgulas, do membro da entidade executora selecionado (limite de quantidade de vírgulas: duração do projeto 1; limite h/mês: 160). -->
+						<HhMbEqExec>Moeda</HhMbEqExec> <!-- Valor da hora trabalhada do membro da entidade executora selecionado. Usar a vÃ­rgula â€˜,â€™ como separador decimal. -->
+						<MesMbEqExec>Texto</MesMbEqExec> <!-- Meses dedicados ao projeto, separados por vÃ­rgula, do membro da entidade executora selecionado (limite de quantidade de vÃ­rgulas: duraÃ§Ã£o do projeto 1; mÃªs limite: duraÃ§Ã£o do projeto). -->
+						<HoraMesMbEqExec>Texto</HoraMesMbEqExec> <!-- Quantidade de horas dedicadas ao projeto para cada mÃªs de atuaÃ§Ã£o, separada por vÃ­rgulas, do membro da entidade executora selecionado (limite de quantidade de vÃ­rgulas: duraÃ§Ã£o do projeto 1; limite h/mÃªs: 160). -->
 					</EquipeExec>
 				</Equipe>
 			</Executora>
@@ -103,221 +103,221 @@
 	</PD_EquipeExec>
 	<PD_Etapas>
 		<Etapa>
-			<EtapaN>Número</EtapaN> <!-- Número seqüencial da etapa do Projeto de P&D, com dois caracteres inteiros, iniciando-se
+			<EtapaN>NÃºmero</EtapaN> <!-- NÃºmero seqÃ¼encial da etapa do Projeto de P&D, com dois caracteres inteiros, iniciando-se
 em 01. -->
-			<Atividades>Texto</Atividades> <!-- Descrição das atividades realizadas na etapa selecionada (até 300 caracteres). -->
-			<MesExecEtapa>Número</MesExecEtapa> <!-- Meses, separados por vírgula, de execução da etapa selecionada (limite de quantidade de vírgulas: duração do projeto -1; mês limite: duração do projeto). ex: se o projeto é de set/2013 ate mai/2015, totalizando  21 meses, a linha vai ficar "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21" (sem aspas) onde o numero "1" representa Setembro/2013, o primeiro mes do projeto.-->
+			<Atividades>Texto</Atividades> <!-- DescriÃ§Ã£o das atividades realizadas na etapa selecionada (atÃ© 300 caracteres). -->
+			<MesExecEtapa>NÃºmero</MesExecEtapa> <!-- Meses, separados por vÃ­rgula, de execuÃ§Ã£o da etapa selecionada (limite de quantidade de vÃ­rgulas: duraÃ§Ã£o do projeto -1; mÃªs limite: duraÃ§Ã£o do projeto). ex: se o projeto Ã© de set/2013 ate mai/2015, totalizando  21 meses, a linha vai ficar "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21" (sem aspas) onde o numero "1" representa Setembro/2013, o primeiro mes do projeto.-->
 		</Etapa>
 	</PD_Etapas>
 	<PD_Recursos>
-		<RecursoEmpresa> <!-- ## REPETIR ## deverá ser repetido, sequencialmente, tantas vezes quantas forem necessárias para identificar todas as empresas de energia elétrica que financiaram a execução do Projeto de P&D -->
-			<CodEmpresa>Número</CodEmpresa> <!-- Código da emp. de energia elétrica, financiadora de item de despesa no Projeto de P&D, no formato numérico 9999 -->
+		<RecursoEmpresa> <!-- ## REPETIR ## deverÃ¡ ser repetido, sequencialmente, tantas vezes quantas forem necessÃ¡rias para identificar todas as empresas de energia elÃ©trica que financiaram a execuÃ§Ã£o do Projeto de P&D -->
+			<CodEmpresa>NÃºmero</CodEmpresa> <!-- CÃ³digo da emp. de energia elÃ©trica, financiadora de item de despesa no Projeto de P&D, no formato numÃ©rico 9999 -->
 				<DestRecursos>
-					<DestRecursosExec> <!-- ## REPETIR ## repetir tantas vezes quantas forem necessárias para identificar as entidades executoras que receberam itens de despesa de uma determinada empresa de energia elétrica;
-					@@ REMOVER @@ se não ouver itens despesa da executora financiada pela empresa de energia -->
-						<CNPJExec>Número</CNPJExec> <!-- CNPJ da entidade executora receptora de item de despesa no Projeto de P&D, no formato numérico 99999999999999 -->
+					<DestRecursosExec> <!-- ## REPETIR ## repetir tantas vezes quantas forem necessÃ¡rias para identificar as entidades executoras que receberam itens de despesa de uma determinada empresa de energia elÃ©trica;
+					@@ REMOVER @@ se nÃ£o ouver itens despesa da executora financiada pela empresa de energia -->
+						<CNPJExec>NÃºmero</CNPJExec> <!-- CNPJ da entidade executora receptora de item de despesa no Projeto de P&D, no formato numÃ©rico 99999999999999 -->
 						<CustoCatContabil> <!-- ## REPETIR ##  repetir quantas forem as rubricas (Exceto rubrica RH) -->
-							<CategoriaContabil>Código</CategoriaContabil> <!-- Código da categoria contábil, conforme Tabela abaixo (excluindo RH), recebida pela entidade executora selecionada. 
-							Código - Categoria Contábil
-							ST - Serviços de Terceiros
+							<CategoriaContabil>CÃ³digo</CategoriaContabil> <!-- CÃ³digo da categoria contÃ¡bil, conforme Tabela abaixo (excluindo RH), recebida pela entidade executora selecionada. 
+							CÃ³digo - Categoria ContÃ¡bil
+							ST - ServiÃ§os de Terceiros
 							MC - Materiais de Consumo
 							MP - Materiais Permanentes e Equipamentos
-							VD - Viagens e Diárias
+							VD - Viagens e DiÃ¡rias
 							OU - Outros
 							-->
 							<ItemDespesa> <!-- ## REPETIR ##  repetir quantos forem os itens dentro desta rubrica -->
-								<NomeItem>Texto</NomeItem> <!-- Especificação técnica do item de despesa, na categoria contábil selecionada (até 300 caracteres) -->
-								<JustificaItem>Texto</JustificaItem> <!-- Justificativa da necessidade, para o Projeto de P&D, do item de despesa selecionado (até 500 caracteres). -->
-								<QtdeItem>Número</QtdeItem> <!-- Quantidade do item de despesa selecionado -->
-								<ValorIndItem>Moeda</ValorIndItem> <!-- Valor unitário do item. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal. -->
+								<NomeItem>Texto</NomeItem> <!-- EspecificaÃ§Ã£o tÃ©cnica do item de despesa, na categoria contÃ¡bil selecionada (atÃ© 300 caracteres) -->
+								<JustificaItem>Texto</JustificaItem> <!-- Justificativa da necessidade, para o Projeto de P&D, do item de despesa selecionado (atÃ© 500 caracteres). -->
+								<QtdeItem>NÃºmero</QtdeItem> <!-- Quantidade do item de despesa selecionado -->
+								<ValorIndItem>Moeda</ValorIndItem> <!-- Valor unitÃ¡rio do item. Usar o ponto â€˜.â€™ como separador de milhar e a vÃ­rgula â€˜,â€™como separador decimal. -->
 								<TipoItem>Letra</TipoItem> <!-- Tipo de despesa: N (Nacional); I(Internacional) -->
-								<ItemLabE>Letra</ItemLabE> <!-- Item foi adquiro para equipar laboratório existente: S(Sim); N (Não) (SOMENTE SE a RUBRICA FOR MP) -->
-								<ItemLabN>Letra</ItemLabN> <!-- Item foi adquiro para equipar laboratório novo: S (Sim) N (Não) (SOMENTE SE a RUBRICA FOR MP) -->
+								<ItemLabE>Letra</ItemLabE> <!-- Item foi adquiro para equipar laboratÃ³rio existente: S(Sim); N (NÃ£o) (SOMENTE SE a RUBRICA FOR MP) -->
+								<ItemLabN>Letra</ItemLabN> <!-- Item foi adquiro para equipar laboratÃ³rio novo: S (Sim) N (NÃ£o) (SOMENTE SE a RUBRICA FOR MP) -->
 							</ItemDespesa>
 						</CustoCatContabil>
 					</DestRecursosExec>
-					<DestRecursosEmp> <!-- @@ REMOVER @@ se não ouver itens despesa gastos com a propria da empresa de energia -->
+					<DestRecursosEmp> <!-- @@ REMOVER @@ se nÃ£o ouver itens despesa gastos com a propria da empresa de energia -->
 						<CustoCatContabil> <!-- ## REPETIR ##  repetir quantas forem as rubricas (Exceto rubrica RH) -->
-							<CategoriaContabil>Código</CategoriaContabil> <!-- Código da categoria contábil, conforme Tabela abaixo (excluindo RH), recebida pela entidade executora selecionada. 
-							Código - Categoria Contábil
-							ST - Serviços de Terceiros
+							<CategoriaContabil>CÃ³digo</CategoriaContabil> <!-- CÃ³digo da categoria contÃ¡bil, conforme Tabela abaixo (excluindo RH), recebida pela entidade executora selecionada. 
+							CÃ³digo - Categoria ContÃ¡bil
+							ST - ServiÃ§os de Terceiros
 							MC - Materiais de Consumo
 							MP - Materiais Permanentes e Equipamentos
-							VD - Viagens e Diárias
+							VD - Viagens e DiÃ¡rias
 							OU - Outros
 							-->
 							<ItemDespesa> <!-- ## REPETIR ##  repetir quantos forem os itens dentro desta rubrica -->
-								<NomeItem>Texto</NomeItem> <!-- Especificação técnica do item de despesa, na categoria contábil selecionada (até 300 caracteres) -->
-								<JustificaItem>Texto</JustificaItem> <!-- Justificativa da necessidade, para o Projeto de P&D, do item de despesa selecionado (até 500 caracteres). -->
-								<QtdeItem>Número</QtdeItem> <!-- Quantidade do item de despesa selecionado -->
-								<ValorIndItem>Moeda</ValorIndItem> <!-- Valor unitário do item. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal. -->
+								<NomeItem>Texto</NomeItem> <!-- EspecificaÃ§Ã£o tÃ©cnica do item de despesa, na categoria contÃ¡bil selecionada (atÃ© 300 caracteres) -->
+								<JustificaItem>Texto</JustificaItem> <!-- Justificativa da necessidade, para o Projeto de P&D, do item de despesa selecionado (atÃ© 500 caracteres). -->
+								<QtdeItem>NÃºmero</QtdeItem> <!-- Quantidade do item de despesa selecionado -->
+								<ValorIndItem>Moeda</ValorIndItem> <!-- Valor unitÃ¡rio do item. Usar o ponto â€˜.â€™ como separador de milhar e a vÃ­rgula â€˜,â€™como separador decimal. -->
 								<TipoItem>Letra</TipoItem> <!-- Tipo de despesa: N (Nacional); I(Internacional) -->
-								<ItemLabE>Letra</ItemLabE> <!-- Item foi adquiro para equipar laboratório existente: S(Sim); N (Não) (SOMENTE SE a RUBRICA FOR MP) -->
-								<ItemLabN>Letra</ItemLabN> <!-- Item foi adquiro para equipar laboratório novo: S (Sim) N (Não) (SOMENTE SE a RUBRICA FOR MP)-->
+								<ItemLabE>Letra</ItemLabE> <!-- Item foi adquiro para equipar laboratÃ³rio existente: S(Sim); N (NÃ£o) (SOMENTE SE a RUBRICA FOR MP) -->
+								<ItemLabN>Letra</ItemLabN> <!-- Item foi adquiro para equipar laboratÃ³rio novo: S (Sim) N (NÃ£o) (SOMENTE SE a RUBRICA FOR MP)-->
 							</ItemDespesa>
 						</CustoCatContabil>
 					</DestRecursosEmp>
 				</DestRecursos>
 		</RecursoEmpresa>
-		<RecursoParceira> <!-- ## REPETIR ##   quantas forem as entidades parceiras que FINANCIARAM a execução do Projeto
-		@@ REMOVER @@ se não não haja entidade parceira aportando recursos financeiros no Projeto -->
-			<CNPJParc>Número</CNPJParc> <!-- CNPJ da entidade parceira financiadora de item de despesa no Projeto de P&D, no formato numérico 99999999999999. -->
-			<DestRecursosExec> <!-- ## REPETIR ## tantas vezes quantas forem necessárias para identificar as entidades executoras que receberam itens de despesa de uma determinada empresa parceira;
-			@@ REMOVER @@ se não ouver itens despesa da executora financiada pela empresa de energia -->
-				<CNPJExec>Número</CNPJExec> <!-- CNPJ da entidade executora receptora de item de despesa, financiado pela parceira no Projeto de P&D, no formato numérico 99999999999999 -->
+		<RecursoParceira> <!-- ## REPETIR ##   quantas forem as entidades parceiras que FINANCIARAM a execuÃ§Ã£o do Projeto
+		@@ REMOVER @@ se nÃ£o nÃ£o haja entidade parceira aportando recursos financeiros no Projeto -->
+			<CNPJParc>NÃºmero</CNPJParc> <!-- CNPJ da entidade parceira financiadora de item de despesa no Projeto de P&D, no formato numÃ©rico 99999999999999. -->
+			<DestRecursosExec> <!-- ## REPETIR ## tantas vezes quantas forem necessÃ¡rias para identificar as entidades executoras que receberam itens de despesa de uma determinada empresa parceira;
+			@@ REMOVER @@ se nÃ£o ouver itens despesa da executora financiada pela empresa de energia -->
+				<CNPJExec>NÃºmero</CNPJExec> <!-- CNPJ da entidade executora receptora de item de despesa, financiado pela parceira no Projeto de P&D, no formato numÃ©rico 99999999999999 -->
 				<CustoCatContabil> <!-- ## REPETIR ##  repetir quantas forem as rubricas (INCLUINDO rubrica RH) -->
-				<CategoriaContabil>Código</CategoriaContabil> <!-- Código da categoria contábil, conforme Tabela abaixo (#INCLUINDO# RH), recebida pela entidade executora selecionada. 
-							Código - Categoria Contábil
+				<CategoriaContabil>CÃ³digo</CategoriaContabil> <!-- CÃ³digo da categoria contÃ¡bil, conforme Tabela abaixo (#INCLUINDO# RH), recebida pela entidade executora selecionada. 
+							CÃ³digo - Categoria ContÃ¡bil
 							RH - Recursos Humanos
-							ST - Serviços de Terceiros
+							ST - ServiÃ§os de Terceiros
 							MC - Materiais de Consumo
 							MP - Materiais Permanentes e Equipamentos
-							VD - Viagens e Diárias
+							VD - Viagens e DiÃ¡rias
 							OU - Outros
 							-->
-					<ItemDespesa> <!-- ##REPETIR## deverá ser repetido, tantas vezes quantas forem necessárias para identificar todos os itens de despesa adquiridos, na categoria contábil selecionada -->
-						<NomeItem>Texto</NomeItem> <!-- Especificação técnica do item de despesa, na categoria contábil selecionada (até 300 caracteres) -->
-						<JustificaItem>Texto</JustificaItem> <!-- Justificativa da necessidade, para o Projeto de P&D, do item de despesa selecionado (até 500 caracteres). -->
-						<QtdeItem>Número</QtdeItem> <!-- Quantidade do item de despesa selecionado -->
-						<ValorIndItem>Moeda</ValorIndItem> <!-- Valor unitário do item. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal. -->
+					<ItemDespesa> <!-- ##REPETIR## deverÃ¡ ser repetido, tantas vezes quantas forem necessÃ¡rias para identificar todos os itens de despesa adquiridos, na categoria contÃ¡bil selecionada -->
+						<NomeItem>Texto</NomeItem> <!-- EspecificaÃ§Ã£o tÃ©cnica do item de despesa, na categoria contÃ¡bil selecionada (atÃ© 300 caracteres) -->
+						<JustificaItem>Texto</JustificaItem> <!-- Justificativa da necessidade, para o Projeto de P&D, do item de despesa selecionado (atÃ© 500 caracteres). -->
+						<QtdeItem>NÃºmero</QtdeItem> <!-- Quantidade do item de despesa selecionado -->
+						<ValorIndItem>Moeda</ValorIndItem> <!-- Valor unitÃ¡rio do item. Usar o ponto â€˜.â€™ como separador de milhar e a vÃ­rgula â€˜,â€™como separador decimal. -->
 						<TipoItem>Letra</TipoItem> <!-- Tipo de despesa: N (Nacional); I(Internacional) -->
-						<ItemLabE>Letra</ItemLabE> <!-- Item foi adquiro para equipar laboratório existente: S(Sim); N (Não) (SOMENTE SE a RUBRICA FOR MP) -->
-						<ItemLabN>Letra</ItemLabN> <!-- Item foi adquiro para equipar laboratório novo: S (Sim) N (Não) (SOMENTE SE a RUBRICA FOR MP)-->
+						<ItemLabE>Letra</ItemLabE> <!-- Item foi adquiro para equipar laboratÃ³rio existente: S(Sim); N (NÃ£o) (SOMENTE SE a RUBRICA FOR MP) -->
+						<ItemLabN>Letra</ItemLabN> <!-- Item foi adquiro para equipar laboratÃ³rio novo: S (Sim) N (NÃ£o) (SOMENTE SE a RUBRICA FOR MP)-->
 					</ItemDespesa>
 				</CustoCatContabil>
 			</DestRecursosExec>
 		</RecursoParceira>
 	</PD_Recursos>
 	<PD_Resultados>
-		<PD_ResultadosCP> <!-- Capacitação -->
+		<PD_ResultadosCP> <!-- CapacitaÃ§Ã£o -->
 			<IdCP>
-				<TipoCP>Código</TipoCP> <!-- Código do tipo de capacitação profissional realizada como resultado do projeto, conforme Tabela abaixo:
-				Código - Capacitação Profissional Realizada
-				PD - PósDoutorado (Stricto Sensu)
+				<TipoCP>CÃ³digo</TipoCP> <!-- CÃ³digo do tipo de capacitaÃ§Ã£o profissional realizada como resultado do projeto, conforme Tabela abaixo:
+				CÃ³digo - CapacitaÃ§Ã£o Profissional Realizada
+				PD - PÃ³sDoutorado (Stricto Sensu)
 				DO - Doutorado (Stricto Sensu)
 				ME - Mestrado (Stricto Sensu)
-				ES - Especialização (Lato Sensu)
+				ES - EspecializaÃ§Ã£o (Lato Sensu)
 				-->
-				<ConclusaoCP>Letra</ConclusaoCP> <!-- Conclusão da capacitação profissional: S (Sim); N (Não) -->
-				<DataCP>Data</DataCP> <!-- Data de conclusão da capacitação profissional, no formato numérico DDMMAAAA -->
-				<DocMmbEqCP>Texto</DocMmbEqCP> <!-- Número de documento do membro da equipe do projeto que realizou a capacitação profissional: CPF no formato numérico 99999999999, se brasileiro; Passaporte com até 20 caracteres, caso contrário. -->
-				<CNPJInstCP>Número</CNPJInstCP> <!-- CNPJ de instituição executora do Projeto de P&D, reconhecida pelo MEC e recomendada pela CAPES, onde foi obtida a capacitação profissional, no formato numérico 99999999999999. -->
-				<AreaCP>Texto</AreaCP> <!-- Área de pesquisa da capacitação profissional (até 50 caracteres) -->
-				<TituloCP>Texto</TituloCP> <!-- Título do trabalho que deu origem à capacitação profissional (até 200 caracteres) -->
-				<ArquivoPDF>Texto</ArquivoPDF> <!-- Nome do arquivo em formato PDF do trabalho que deu origem à capacitação profissional -->
+				<ConclusaoCP>Letra</ConclusaoCP> <!-- ConclusÃ£o da capacitaÃ§Ã£o profissional: S (Sim); N (NÃ£o) -->
+				<DataCP>Data</DataCP> <!-- Data de conclusÃ£o da capacitaÃ§Ã£o profissional, no formato numÃ©rico DDMMAAAA -->
+				<DocMmbEqCP>Texto</DocMmbEqCP> <!-- NÃºmero de documento do membro da equipe do projeto que realizou a capacitaÃ§Ã£o profissional: CPF no formato numÃ©rico 99999999999, se brasileiro; Passaporte com atÃ© 20 caracteres, caso contrÃ¡rio. -->
+				<CNPJInstCP>NÃºmero</CNPJInstCP> <!-- CNPJ de instituiÃ§Ã£o executora do Projeto de P&D, reconhecida pelo MEC e recomendada pela CAPES, onde foi obtida a capacitaÃ§Ã£o profissional, no formato numÃ©rico 99999999999999. -->
+				<AreaCP>Texto</AreaCP> <!-- Ãrea de pesquisa da capacitaÃ§Ã£o profissional (atÃ© 50 caracteres) -->
+				<TituloCP>Texto</TituloCP> <!-- TÃ­tulo do trabalho que deu origem Ã  capacitaÃ§Ã£o profissional (atÃ© 200 caracteres) -->
+				<ArquivoPDF>Texto</ArquivoPDF> <!-- Nome do arquivo em formato PDF do trabalho que deu origem Ã  capacitaÃ§Ã£o profissional -->
 			</IdCP>
 		</PD_ResultadosCP>
 		<PD_ResultadosCT> <!-- -->
-			<PD_ResultadosCT_PC> <!-- @@ APAGAR @@ se não houver produção tecnica cientifica -->
-				<IdCT_PC> <!-- ##REPETIR## quantas vezes forem necessárias para cada produção tecnica-cientifica -->
-					<TipoCT_PC>Código</TipoCT_PC> <!-- Código do tipo de produção técnico-científica realizada como resultado do projeto, conforme Tabela abaixo
-					Código - Tipo da Produção técnico-científica (Local de Publicação)
-					PN - Periódico Nacional
-					PI - Periódico Internacional
+			<PD_ResultadosCT_PC> <!-- @@ APAGAR @@ se nÃ£o houver produÃ§Ã£o tecnica cientifica -->
+				<IdCT_PC> <!-- ##REPETIR## quantas vezes forem necessÃ¡rias para cada produÃ§Ã£o tecnica-cientifica -->
+					<TipoCT_PC>CÃ³digo</TipoCT_PC> <!-- CÃ³digo do tipo de produÃ§Ã£o tÃ©cnico-cientÃ­fica realizada como resultado do projeto, conforme Tabela abaixo
+					CÃ³digo - Tipo da ProduÃ§Ã£o tÃ©cnico-cientÃ­fica (Local de PublicaÃ§Ã£o)
+					PN - PeriÃ³dico Nacional
+					PI - PeriÃ³dico Internacional
 					AN - Anais de Evento Nacional
 					AI - Anais de Evento Internacional
 					-->
-					<ConfPubCT_PC>Letra</ConfPubCT_PC> <!-- Recebida confirmação da publicação da produção técnico-científica? S (Sim); N (Não) -->
-					<DataCT_PC>Data</DataCT_PC> <!-- Data de publicação da produção técnico-científica, no formato numérico MMAAAA -->
-					<NomeCT_PC>Texto</NomeCT_PC> <!-- Nome do periódico ou do evento de publicação da produção técnico-científica (até 50 caracteres) -->
-					<LinkCT_PC>Texto</LinkCT_PC> <!-- Endereço na internet do periódico ou do evento de publicação da produção técnico-científica (até 50 caracteres) -->
-					<PaisCT_PC>Texto</PaisCT_PC> <!-- País de publicação da produção técnico-científica (até 30 caracteres) -->
-					<CidadeCT_PC>Texto</CidadeCT_PC> <!-- Cidade de publicação da produção técnico-científica (até 30 caracteres) -->
-					<TituloCT_PC>Texto</TituloCT_PC> <!-- Título do trabalho que gerou a produção técnico-científica (até 200 caracteres) -->
-					<ArquivoPDF>Texto</ArquivoPDF> <!-- Nome do arquivo em formato PDF do trabalho que gerou a produção técnico-científica -->
+					<ConfPubCT_PC>Letra</ConfPubCT_PC> <!-- Recebida confirmaÃ§Ã£o da publicaÃ§Ã£o da produÃ§Ã£o tÃ©cnico-cientÃ­fica? S (Sim); N (NÃ£o) -->
+					<DataCT_PC>Data</DataCT_PC> <!-- Data de publicaÃ§Ã£o da produÃ§Ã£o tÃ©cnico-cientÃ­fica, no formato numÃ©rico MMAAAA -->
+					<NomeCT_PC>Texto</NomeCT_PC> <!-- Nome do periÃ³dico ou do evento de publicaÃ§Ã£o da produÃ§Ã£o tÃ©cnico-cientÃ­fica (atÃ© 50 caracteres) -->
+					<LinkCT_PC>Texto</LinkCT_PC> <!-- EndereÃ§o na internet do periÃ³dico ou do evento de publicaÃ§Ã£o da produÃ§Ã£o tÃ©cnico-cientÃ­fica (atÃ© 50 caracteres) -->
+					<PaisCT_PC>Texto</PaisCT_PC> <!-- PaÃ­s de publicaÃ§Ã£o da produÃ§Ã£o tÃ©cnico-cientÃ­fica (atÃ© 30 caracteres) -->
+					<CidadeCT_PC>Texto</CidadeCT_PC> <!-- Cidade de publicaÃ§Ã£o da produÃ§Ã£o tÃ©cnico-cientÃ­fica (atÃ© 30 caracteres) -->
+					<TituloCT_PC>Texto</TituloCT_PC> <!-- TÃ­tulo do trabalho que gerou a produÃ§Ã£o tÃ©cnico-cientÃ­fica (atÃ© 200 caracteres) -->
+					<ArquivoPDF>Texto</ArquivoPDF> <!-- Nome do arquivo em formato PDF do trabalho que gerou a produÃ§Ã£o tÃ©cnico-cientÃ­fica -->
 				</IdCT_PC>
 			</PD_ResultadosCT_PC>
-			<PD_ResultadosCT_IE> <!-- @@APAGAR@@ Caso não tenha havido apoio à infraestrutura -->
-				<IdCT_IE> <!-- ##REPETIR## deverá ser repetido, sequencialmente,tantas vezes quantas forem necessárias para identificar todos os laboratórios receptores de materiais permanentes e/ou equipamentos destinados à sua capacitação tecnológica; -->
-					<TipoCT_IE>Código</TipoCT_IE> <!-- Código do tipo de infraestrutura receptora da capacitação tecnológica, conforme Tabela abaixo
-					Código - Tipo de InfraEstrutura
-					LNS - Laboratório Novo em Instituição de Ensino Superior.
-					LES - Laboratório Existente em Instituição de Ensino Superior.
-					LNP - Laboratório Novo em Instituição de Pesquisa.
-					LEP - Laboratório Existente em Instituição de Pesquisa.
-					LNE - Laboratório Novo em Empresa de Energia Elétrica.
-					LEE - Laboratório Existente em Empresa de Energia Elétrica.
+			<PD_ResultadosCT_IE> <!-- @@APAGAR@@ Caso nÃ£o tenha havido apoio Ã  infraestrutura -->
+				<IdCT_IE> <!-- ##REPETIR## deverÃ¡ ser repetido, sequencialmente,tantas vezes quantas forem necessÃ¡rias para identificar todos os laboratÃ³rios receptores de materiais permanentes e/ou equipamentos destinados Ã  sua capacitaÃ§Ã£o tecnolÃ³gica; -->
+					<TipoCT_IE>CÃ³digo</TipoCT_IE> <!-- CÃ³digo do tipo de infraestrutura receptora da capacitaÃ§Ã£o tecnolÃ³gica, conforme Tabela abaixo
+					CÃ³digo - Tipo de InfraEstrutura
+					LNS - LaboratÃ³rio Novo em InstituiÃ§Ã£o de Ensino Superior.
+					LES - LaboratÃ³rio Existente em InstituiÃ§Ã£o de Ensino Superior.
+					LNP - LaboratÃ³rio Novo em InstituiÃ§Ã£o de Pesquisa.
+					LEP - LaboratÃ³rio Existente em InstituiÃ§Ã£o de Pesquisa.
+					LNE - LaboratÃ³rio Novo em Empresa de Energia ElÃ©trica.
+					LEE - LaboratÃ³rio Existente em Empresa de Energia ElÃ©trica.
 					-->
-					<CNPJInstBenefCT_IE>Número</CNPJInstBenefCT_IE> <!-- CNPJ da entidade participante do projeto receptora do apoio à infraestrutura, no formato numérico 99999999999999 -->
-					<NomeLabCT_IE>Texto</NomeLabCT_IE> <!-- Nome do Laboratório receptor do apoio à infraestrutura (até 100 caracteres) -->
-					<AreaLabCT_IE>Texto</AreaLabCT_IE> <!-- Área de pesquisa do Laboratório receptor do apoio à infraestrutura (até 50 caracteres). -->
-					<ApoioLabCT_IE>Texto</ApoioLabCT_IE> <!-- Lista de materiais permanentes e equipamentos, separados por vírgula, destinados ao apoio à infraestrutura do Laboratório (até 300 caracteres) -->
+					<CNPJInstBenefCT_IE>NÃºmero</CNPJInstBenefCT_IE> <!-- CNPJ da entidade participante do projeto receptora do apoio Ã  infraestrutura, no formato numÃ©rico 99999999999999 -->
+					<NomeLabCT_IE>Texto</NomeLabCT_IE> <!-- Nome do LaboratÃ³rio receptor do apoio Ã  infraestrutura (atÃ© 100 caracteres) -->
+					<AreaLabCT_IE>Texto</AreaLabCT_IE> <!-- Ãrea de pesquisa do LaboratÃ³rio receptor do apoio Ã  infraestrutura (atÃ© 50 caracteres). -->
+					<ApoioLabCT_IE>Texto</ApoioLabCT_IE> <!-- Lista de materiais permanentes e equipamentos, separados por vÃ­rgula, destinados ao apoio Ã  infraestrutura do LaboratÃ³rio (atÃ© 300 caracteres) -->
 				</IdCT_IE>
 			</PD_ResultadosCT_IE>
-			<PD_ResultadosCT_PI> <!-- @@APAGAR@@ Caso não tenha havido depósito/registro de propriedade intelectual no INPI -->
-				<IdCT_PI> <!-- ##REPETIR## tantas vezes quantas forem necessárias para identificar todas as propriedades intelectuais, obtidas como resultado do Projeto de P&D, registradas no INPI -->
-					<TipoCT_PI>Código</TipoCT_PI> <!-- Código do tipo de propriedade intelectual, resultante do Projeto de P&D, registrado no INPI, conforme Tabela abaixo: 
-					Código - Tipo de Propriedade Intelectual
-					PI - Patente de Invenção
+			<PD_ResultadosCT_PI> <!-- @@APAGAR@@ Caso nÃ£o tenha havido depÃ³sito/registro de propriedade intelectual no INPI -->
+				<IdCT_PI> <!-- ##REPETIR## tantas vezes quantas forem necessÃ¡rias para identificar todas as propriedades intelectuais, obtidas como resultado do Projeto de P&D, registradas no INPI -->
+					<TipoCT_PI>CÃ³digo</TipoCT_PI> <!-- CÃ³digo do tipo de propriedade intelectual, resultante do Projeto de P&D, registrado no INPI, conforme Tabela abaixo: 
+					CÃ³digo - Tipo de Propriedade Intelectual
+					PI - Patente de InvenÃ§Ã£o
 					PU - Patente de Modelo de Utilidade
 					RS - Registro de Software
 					RD - Registro de Desenho Industrial	-->
-					<DataCT_PI>Data</DataCT_PI> <!-- Data do pedido/registro da propriedade intelectual no INPI, no formato numérico DDMMAAAA. -->
-					<NumeroCT_PI>Número</NumeroCT_PI> <!-- Número do pedido/registro da propriedade intelectual no INPI (até 15 caracteres) -->
-					<TituloCT_PI>Texto</TituloCT_PI> <!-- Título da propriedade intelectual no INPI (até 200 caracteres) -->
+					<DataCT_PI>Data</DataCT_PI> <!-- Data do pedido/registro da propriedade intelectual no INPI, no formato numÃ©rico DDMMAAAA. -->
+					<NumeroCT_PI>NÃºmero</NumeroCT_PI> <!-- NÃºmero do pedido/registro da propriedade intelectual no INPI (atÃ© 15 caracteres) -->
+					<TituloCT_PI>Texto</TituloCT_PI> <!-- TÃ­tulo da propriedade intelectual no INPI (atÃ© 200 caracteres) -->
 					<Inventores_PI>
 						<Inventor> <!-- ##REPETIR## quantos forem os inventores da propriedade intelectual do Projeto -->
-							<DocMbEqCT_PI>Número</DocMbEqCT_PI> <!-- Número de documento do membro da equipe do projeto cadastrado como inventor da propriedade intelectual no INPI: CPF no formato numérico 99999999999, se brasileiro; Passaporte com até 20 caracteres, caso contrário -->
+							<DocMbEqCT_PI>NÃºmero</DocMbEqCT_PI> <!-- NÃºmero de documento do membro da equipe do projeto cadastrado como inventor da propriedade intelectual no INPI: CPF no formato numÃ©rico 99999999999, se brasileiro; Passaporte com atÃ© 20 caracteres, caso contrÃ¡rio -->
 						</Inventor>
 					</Inventores_PI>
 					<Depositantes_PI>
 						<Depositante> <!-- ##REPETIR## quantos forem os depositantes da propriedade intelectual do Projeto de P&D -->
-							<CNPJInstCT_PI>Número</CNPJInstCT_PI> <!-- CNPJ da entidade participante do projeto cadastrada como depositante da propriedade intelectual no INPI, no formato numérico 99999999999999 -->
-							<PercInstCT_PI>Número</PercInstCT_PI> <!-- Percentual destinado à entidade participante do projeto cadastrada como depositante da propriedade intelectual no INPI, no formato numérico 99,99 -->
+							<CNPJInstCT_PI>NÃºmero</CNPJInstCT_PI> <!-- CNPJ da entidade participante do projeto cadastrada como depositante da propriedade intelectual no INPI, no formato numÃ©rico 99999999999999 -->
+							<PercInstCT_PI>NÃºmero</PercInstCT_PI> <!-- Percentual destinado Ã  entidade participante do projeto cadastrada como depositante da propriedade intelectual no INPI, no formato numÃ©rico 99,99 -->
 						</Depositante>
 					</Depositantes_PI>
 				</IdCT_PI>
 			</PD_ResultadosCT_PI>
 		</PD_ResultadosCT>
 		<PD_ResultadosSA>
-			<IdSA> <!-- ##REPETIR## deverá ser repetido, sequencialmente, de modo a apresentar os quatro indicadores, ISA1, ISA2, ISA3, ISA4 -->
-				<TipoISA>Código</TipoISA> <!-- Código do tipo de indicador socioambiental, conforme Tabela abaixo: 
-				Código - Indicador Socioambiental
-				ISA1 - Possibilidade de impactos ambientais (água, ar ou solo).
-				ISA2 - Possibilidade de diversificação da matriz energética.
-				ISA3 - Possibilidade de desenvolvimento de nova atividade socioeconômica (lazer, turismo, pesca, agricultura, etc.)
-				ISA4 - Possibilidade de impactos na segurança ou na qualidade de vida da comunidade.
+			<IdSA> <!-- ##REPETIR## deverÃ¡ ser repetido, sequencialmente, de modo a apresentar os quatro indicadores, ISA1, ISA2, ISA3, ISA4 -->
+				<TipoISA>CÃ³digo</TipoISA> <!-- CÃ³digo do tipo de indicador socioambiental, conforme Tabela abaixo: 
+				CÃ³digo - Indicador Socioambiental
+				ISA1 - Possibilidade de impactos ambientais (Ã¡gua, ar ou solo).
+				ISA2 - Possibilidade de diversificaÃ§Ã£o da matriz energÃ©tica.
+				ISA3 - Possibilidade de desenvolvimento de nova atividade socioeconÃ´mica (lazer, turismo, pesca, agricultura, etc.)
+				ISA4 - Possibilidade de impactos na seguranÃ§a ou na qualidade de vida da comunidade.
 				-->
-				<PossibISA>Letra</PossibISA> <!-- Possibilidade de impacto, positivo ou negativo, como resultado do Projeto de P&D: S (Sim); N (Não) -->
-				<TxtISA>Texto</TxtISA> <!-- Descrição de impacto/mitigação do resultado do Projeto de P&D (até 500 caracteres) -->
+				<PossibISA>Letra</PossibISA> <!-- Possibilidade de impacto, positivo ou negativo, como resultado do Projeto de P&D: S (Sim); N (NÃ£o) -->
+				<TxtISA>Texto</TxtISA> <!-- DescriÃ§Ã£o de impacto/mitigaÃ§Ã£o do resultado do Projeto de P&D (atÃ© 500 caracteres) -->
 			</IdSA>
 		</PD_ResultadosSA>
-		<PD_ResultadosIE> <!-- @@EXCLUIR@@ Caso não tenha havido benefício econômico resultante do Projeto de P&D -->
-			<IdIE> <!-- ##REPETIR## tantas vezes quantas forem necessárias para identificar todos os indicadores econômicos identificados. Poderão ser informados até vinte indicadores econômicos DISTINTOS, não pode repetir -->
-				<TipoIE>Código</TipoIE> <!-- Código do tipo de indicador econômico obtido como resultado do projeto, conforme Tabela abaixo:
-				Código - Indicador Econômico - Índice
-				PR1 - Redução de Homem/Hora - Produtividade
-				PR2 - Redução de Insumos - Produtividade
-				PR3 - Redução de Tempo - Produtividade
+		<PD_ResultadosIE> <!-- @@EXCLUIR@@ Caso nÃ£o tenha havido benefÃ­cio econÃ´mico resultante do Projeto de P&D -->
+			<IdIE> <!-- ##REPETIR## tantas vezes quantas forem necessÃ¡rias para identificar todos os indicadores econÃ´micos identificados. PoderÃ£o ser informados atÃ© vinte indicadores econÃ´micos DISTINTOS, nÃ£o pode repetir -->
+				<TipoIE>CÃ³digo</TipoIE> <!-- CÃ³digo do tipo de indicador econÃ´mico obtido como resultado do projeto, conforme Tabela abaixo:
+				CÃ³digo - Indicador EconÃ´mico - Ãndice
+				PR1 - ReduÃ§Ã£o de Homem/Hora - Produtividade
+				PR2 - ReduÃ§Ã£o de Insumos - Produtividade
+				PR3 - ReduÃ§Ã£o de Tempo - Produtividade
 				PRX - Outro - Produtividade
-				QF1 - Redução de DEC, FEC e TMA - Qualidade do Fornecimento
-				QF2 - Redução de VTCDs e Outros Distúrbios - Qualidade do Fornecimento
-				QF3 - Redução do Índice de Reclamações - Qualidade do Fornecimento
+				QF1 - ReduÃ§Ã£o de DEC, FEC e TMA - Qualidade do Fornecimento
+				QF2 - ReduÃ§Ã£o de VTCDs e Outros DistÃºrbios - Qualidade do Fornecimento
+				QF3 - ReduÃ§Ã£o do Ãndice de ReclamaÃ§Ãµes - Qualidade do Fornecimento
 				QFX - Outro - Qualidade do Fornecimento
-				GA1 - Postergação de Investimento - Gestão de Ativos
-				GA2 - Investimento Evitado - Gestão de Ativos
-				GA3 - Redução de Roubos e Furtos - Gestão de Ativos
-				GAX - Outro - Gestão de Ativos
-				NT1 - Redução de Inadimplência - Perdas Não Técnicas
-				NT2 - Redução de Fraudes e Desvios - Perdas Não Técnicas
-				NT3 - Redução de Erros de Medição - Perdas Não Técnicas
-				NT4 - Redução de Perdas Indenizatórias - Perdas Não Técnicas
-				NTX - Outro - Perdas Não Técnicas
-				ME1 - Redução no Custo da Energia - Mercado da Empresa
-				ME2 - Redução nos Erros de Previsão - Mercado da Empresa
+				GA1 - PostergaÃ§Ã£o de Investimento - GestÃ£o de Ativos
+				GA2 - Investimento Evitado - GestÃ£o de Ativos
+				GA3 - ReduÃ§Ã£o de Roubos e Furtos - GestÃ£o de Ativos
+				GAX - Outro - GestÃ£o de Ativos
+				NT1 - ReduÃ§Ã£o de InadimplÃªncia - Perdas NÃ£o TÃ©cnicas
+				NT2 - ReduÃ§Ã£o de Fraudes e Desvios - Perdas NÃ£o TÃ©cnicas
+				NT3 - ReduÃ§Ã£o de Erros de MediÃ§Ã£o - Perdas NÃ£o TÃ©cnicas
+				NT4 - ReduÃ§Ã£o de Perdas IndenizatÃ³rias - Perdas NÃ£o TÃ©cnicas
+				NTX - Outro - Perdas NÃ£o TÃ©cnicas
+				ME1 - ReduÃ§Ã£o no Custo da Energia - Mercado da Empresa
+				ME2 - ReduÃ§Ã£o nos Erros de PrevisÃ£o - Mercado da Empresa
 				MEX - Outro - Mercado da Empresa
-				EE1 - Aumento da Demanda Disponível (Oferta) - Eficiência Energética
-				EE2 - Aumento da Energia Disponível (Oferta) - Eficiência Energética
-				EE3 - Redução de Demanda (Uso Final) - Eficiência Energética
-				EE4 - Energia Economizada (Uso Final) - Eficiência Energética
-				EEX - Outro - Eficiência Energética
+				EE1 - Aumento da Demanda DisponÃ­vel (Oferta) - EficiÃªncia EnergÃ©tica
+				EE2 - Aumento da Energia DisponÃ­vel (Oferta) - EficiÃªncia EnergÃ©tica
+				EE3 - ReduÃ§Ã£o de Demanda (Uso Final) - EficiÃªncia EnergÃ©tica
+				EE4 - Energia Economizada (Uso Final) - EficiÃªncia EnergÃ©tica
+				EEX - Outro - EficiÃªncia EnergÃ©tica
 				OU - Outro - Outro
 				-->
-				<TxtBenefIE>Texto</TxtBenefIE> <!-- Descrição do benefício econômico para o indicador econômico selecionado (até 400 caracteres). -->
-				<UnidBenefIE>Texto</UnidBenefIE> <!-- Unidade da base do indicador econômico selecionado, para cálculo do benefício financeiro. Ex.: kVA, kW, kvar, kVAh, kWh, kvarh, H/h, s/unid, .... (até 10 caracteres). -->
-				<BaseBenefIE>Número</BaseBenefIE> <!-- Valor numérico do indicador econômico selecionado. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’ como separador decimal -->
-				<PerBenefIE>Número</PerBenefIE> <!-- Percentagem do impacto para o indicador econômico selecionado. Usar a vírgula ‘,’ como separador decimal -->
-				<VlrBenefIE>Moeda</VlrBenefIE> <!-- Valor do benefício econômico para o indicador selecionado. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal. -->
+				<TxtBenefIE>Texto</TxtBenefIE> <!-- DescriÃ§Ã£o do benefÃ­cio econÃ´mico para o indicador econÃ´mico selecionado (atÃ© 400 caracteres). -->
+				<UnidBenefIE>Texto</UnidBenefIE> <!-- Unidade da base do indicador econÃ´mico selecionado, para cÃ¡lculo do benefÃ­cio financeiro. Ex.: kVA, kW, kvar, kVAh, kWh, kvarh, H/h, s/unid, .... (atÃ© 10 caracteres). -->
+				<BaseBenefIE>NÃºmero</BaseBenefIE> <!-- Valor numÃ©rico do indicador econÃ´mico selecionado. Usar o ponto â€˜.â€™ como separador de milhar e a vÃ­rgula â€˜,â€™ como separador decimal -->
+				<PerBenefIE>NÃºmero</PerBenefIE> <!-- Percentagem do impacto para o indicador econÃ´mico selecionado. Usar a vÃ­rgula â€˜,â€™ como separador decimal -->
+				<VlrBenefIE>Moeda</VlrBenefIE> <!-- Valor do benefÃ­cio econÃ´mico para o indicador selecionado. Usar o ponto â€˜.â€™ como separador de milhar e a vÃ­rgula â€˜,â€™como separador decimal. -->
 			</IdIE>
 		</PD_ResultadosIE>
 	</PD_Resultados>

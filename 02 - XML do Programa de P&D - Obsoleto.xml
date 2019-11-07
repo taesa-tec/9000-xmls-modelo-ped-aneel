@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="ISO8859-1"?>
-<PED Tipo="PROGRAMA" CodigoEmpresa="0CÓDIGO DA EMPRESA PARA ENVIO DE INFORMAÇÕES VIA DUTO">
+<?xml version="1.0" encoding="UTF-8"?>
+<PED Tipo="PROGRAMA" CodigoEmpresa="0CÃ“DIGO DA EMPRESA PARA ENVIO DE INFORMAÃ‡Ã•ES VIA DUTO">
 	<PD_Programa>
 		<Empresas>
 			<Empresa>
 				<TipoEmpresa>Letra</TipoEmpresa> <!-- Tipo da Empresa: P (proponente); C (cooperada).-->
-				<CodEmpresa>Número</CodEmpresa> <!-- Código da Empresa para envio de informações via DUTO, no formato numérico 9999.  -->
+				<CodEmpresa>NÃºmero</CodEmpresa> <!-- CÃ³digo da Empresa para envio de informaÃ§Ãµes via DUTO, no formato numÃ©rico 9999.  -->
 			</Empresa>
 		</Empresas>
-		<InicioVigencia>Data</InicioVigencia> <!-- Ano e mês de início de vigência do Plano Estratégico de Investimentos em P&D da(s) Empresa(s), no formato numérico AAAAMM -->
-		<FimVigencia>Data</FimVigencia> <!--Ano e mês de fim de vigência do Plano Estratégico de Investimentos em P&D da(s) Empresa(s), no formato numérico AAAAMM.-->
+		<InicioVigencia>Data</InicioVigencia> <!-- Ano e mÃªs de inÃ­cio de vigÃªncia do Plano EstratÃ©gico de Investimentos em P&D da(s) Empresa(s), no formato numÃ©rico AAAAMM -->
+		<FimVigencia>Data</FimVigencia> <!--Ano e mÃªs de fim de vigÃªncia do Plano EstratÃ©gico de Investimentos em P&D da(s) Empresa(s), no formato numÃ©rico AAAAMM.-->
 		<Temas>
 			<Tema>
-				<CodTema>Código</CodTema> <!--Código do tema para investimentos em P&D, dentre os listados no portal da ANEEL, durante a vigência do Plano. 
+				<CodTema>CÃ³digo</CodTema> <!--CÃ³digo do tema para investimentos em P&D, dentre os listados no portal da ANEEL, durante a vigÃªncia do Plano. 
 				*** JA EXISTE NO DB *** TTEMA_ANEEL > SIG_TEMA_ANEEL *** -->
-				<JustificativasTema>Texto</JustificativasTema> <!-- Descrição, sucinta, das justificativas para investimento pela(s) Empresa(s) no tema selecionado. Indicar, também, as linhas de pesquisa (até 2.500 caracteres). -->
-				<ObjetivosTema>Texto</ObjetivosTema> <!-- Descrição, sucinta, dos objetivos a serem alcançados pela(s) Empresa(s) no tema selecionado. Indicar, também, se há perspectiva para “seguir” a cadeia da inovação, em cada linha de pesquisa, e as parcerias estabelecidas para produção de bens e comercialização (até 2.000 caracteres).-->
+				<JustificativasTema>Texto</JustificativasTema> <!-- DescriÃ§Ã£o, sucinta, das justificativas para investimento pela(s) Empresa(s) no tema selecionado. Indicar, tambÃ©m, as linhas de pesquisa (atÃ© 2.500 caracteres). -->
+				<ObjetivosTema>Texto</ObjetivosTema> <!-- DescriÃ§Ã£o, sucinta, dos objetivos a serem alcanÃ§ados pela(s) Empresa(s) no tema selecionado. Indicar, tambÃ©m, se hÃ¡ perspectiva para â€œseguirâ€ a cadeia da inovaÃ§Ã£o, em cada linha de pesquisa, e as parcerias estabelecidas para produÃ§Ã£o de bens e comercializaÃ§Ã£o (atÃ© 2.000 caracteres).-->
 			</Tema>
 		</Temas>
 	</PD_Programa>

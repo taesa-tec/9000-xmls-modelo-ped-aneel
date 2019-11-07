@@ -1,61 +1,61 @@
-<?xml version="1.0" encoding="ISO8859-1"?>
-<PED Tipo="RELATORIOAUDITORIAPED" CodigoEmpresa="0CÓDIGO DA EMPRESA PARA ENVIO DE INFORMAÇÕES VIA DUTO">
+<?xml version="1.0" encoding="UTF-8"?>
+<PED Tipo="RELATORIOAUDITORIAPED" CodigoEmpresa="0CÃ“DIGO DA EMPRESA PARA ENVIO DE INFORMAÃ‡Ã•ES VIA DUTO">
 	<PD_RelAuditoriaPED>
-		<CodProjeto>Código</CodProjeto> <!--Código do Projeto de P&D, conforme cadastrado no Sistema de Gestão de P&D ANEEL -->
-		<ArquivoPDF>Texto</ArquivoPDF> <!--Nome do arquivo em formato PDF do Relatório de Auditoria Contábil e Financeira do Projeto de P&D, ex: "APLPED9999_RELATORIOAUDITORIAPED_9999_S99.pdf"  
+		<CodProjeto>CÃ³digo</CodProjeto> <!--CÃ³digo do Projeto de P&D, conforme cadastrado no Sistema de GestÃ£o de P&D ANEEL -->
+		<ArquivoPDF>Texto</ArquivoPDF> <!--Nome do arquivo em formato PDF do RelatÃ³rio de Auditoria ContÃ¡bil e Financeira do Projeto de P&D, ex: "APLPED9999_RELATORIOAUDITORIAPED_9999_S99.pdf"  
 		APLPED9999 = 9999 -> cod da empresa de energia
 		_9999_ = numero do projeto
-		_S99 = Seqüência do envio do arquivo eletrônico		
+		_S99 = SeqÃ¼Ãªncia do envio do arquivo eletrÃ´nico		
 		-->
-		<CustoTotal>Moeda</CustoTotal> <!-- Custo de execução do Projeto de P&D. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal. -->
-		<RecursoEmpresa> <!-- ## REPETIR ## para identificar todas as empresas de energia elétrica que custearam recursos no Projeto -->
-			<CodEmpresa>Número</CodEmpresa> <!--  Código da empresa de energia elétrica, para envio de informações via DUTO, financiadora de recursos no Projeto de P&D, no formato numérico 9999 -->
-			<DestRecursosExec> <!-- ## REPETIR ## para identificar todas as entidades executoras que receberam recursos financeiros de uma determinada empresa de energia elétrica 
-									@@Excluir@@ caso não haja custeio de recursos para entidades executoras no Projeto -->
-				<CNPJExec>Número</CNPJExec> <!-- CNPJ da entidade executora receptora de recursos no Projeto de P&D, no formato numérico 99999999999999 -->
-				<CustoCatContabilExec> <!-- ##REPETIR## deverá ser repetido para identificar todas as categorias contábeis, distintas, custeadas por uma determinada empresa de energia elétrica para uma determinada entidade executora (MAX de 6 diferentes)  -->
-					<CatContabil>Código</CatContabil> <!-- Código da categoria contábil, custeada para a entidade executora selecionada conforme tabela abaixo:
-					Código - Categoria Contábil
+		<CustoTotal>Moeda</CustoTotal> <!-- Custo de execuÃ§Ã£o do Projeto de P&D. Usar o ponto â€˜.â€™ como separador de milhar e a vÃ­rgula â€˜,â€™como separador decimal. -->
+		<RecursoEmpresa> <!-- ## REPETIR ## para identificar todas as empresas de energia elÃ©trica que custearam recursos no Projeto -->
+			<CodEmpresa>NÃºmero</CodEmpresa> <!--  CÃ³digo da empresa de energia elÃ©trica, para envio de informaÃ§Ãµes via DUTO, financiadora de recursos no Projeto de P&D, no formato numÃ©rico 9999 -->
+			<DestRecursosExec> <!-- ## REPETIR ## para identificar todas as entidades executoras que receberam recursos financeiros de uma determinada empresa de energia elÃ©trica 
+									@@Excluir@@ caso nÃ£o haja custeio de recursos para entidades executoras no Projeto -->
+				<CNPJExec>NÃºmero</CNPJExec> <!-- CNPJ da entidade executora receptora de recursos no Projeto de P&D, no formato numÃ©rico 99999999999999 -->
+				<CustoCatContabilExec> <!-- ##REPETIR## deverÃ¡ ser repetido para identificar todas as categorias contÃ¡beis, distintas, custeadas por uma determinada empresa de energia elÃ©trica para uma determinada entidade executora (MAX de 6 diferentes)  -->
+					<CatContabil>CÃ³digo</CatContabil> <!-- CÃ³digo da categoria contÃ¡bil, custeada para a entidade executora selecionada conforme tabela abaixo:
+					CÃ³digo - Categoria ContÃ¡bil
 					RH - Recursos Humanos
-					ST - Serviços de Terceiros
+					ST - ServiÃ§os de Terceiros
 					MC - Materiais de Consumo
 					MP - Materiais Permanentes e Equipamentos
-					VD - Viagens e Diárias
+					VD - Viagens e DiÃ¡rias
 					OU - Outros
 					-->
-					<CustoExec>Moeda</CustoExec> <!-- Valor dos recursos reconhecidos pela Auditoria recebidos pela entidade executora na categoria contábil selecionada. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal -->
+					<CustoExec>Moeda</CustoExec> <!-- Valor dos recursos reconhecidos pela Auditoria recebidos pela entidade executora na categoria contÃ¡bil selecionada. Usar o ponto â€˜.â€™ como separador de milhar e a vÃ­rgula â€˜,â€™como separador decimal -->
 				</CustoCatContabilExec>
 			</DestRecursosExec>
-			<DestRecursosEmp>  <!-- @@ EXCLUIR@@ Caso não haja custeio de recursos para a própria empresa de energia elétrica no Projeto -->
-				<CustoCatContabilExec> <!-- ## REPETIR##  tantas vezes quantas forem necessárias para identificar todas as categorias contábeis distintas, custeadas para a própria empresa de energia elétrica -->
-					<CatContabil>Código</CatContabil> <!--  Código da categoria contábil, custeada para a própria empresa de energia elétrica, conforme tabela abaixo:
-					Código - Categoria Contábil
+			<DestRecursosEmp>  <!-- @@ EXCLUIR@@ Caso nÃ£o haja custeio de recursos para a prÃ³pria empresa de energia elÃ©trica no Projeto -->
+				<CustoCatContabilExec> <!-- ## REPETIR##  tantas vezes quantas forem necessÃ¡rias para identificar todas as categorias contÃ¡beis distintas, custeadas para a prÃ³pria empresa de energia elÃ©trica -->
+					<CatContabil>CÃ³digo</CatContabil> <!--  CÃ³digo da categoria contÃ¡bil, custeada para a prÃ³pria empresa de energia elÃ©trica, conforme tabela abaixo:
+					CÃ³digo - Categoria ContÃ¡bil
 					RH - Recursos Humanos
-					ST - Serviços de Terceiros
+					ST - ServiÃ§os de Terceiros
 					MC - Materiais de Consumo
 					MP - Materiais Permanentes e Equipamentos
-					VD - Viagens e Diárias
+					VD - Viagens e DiÃ¡rias
 					OU - Outros	-->
-					<CustoEmp>Moeda</CustoEmp> <!--  Valor dos recursos reconhecidos pela Auditoria recebidos pela própria empresa de energia elétrica na categoria contábil selecionada. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal -->
+					<CustoEmp>Moeda</CustoEmp> <!--  Valor dos recursos reconhecidos pela Auditoria recebidos pela prÃ³pria empresa de energia elÃ©trica na categoria contÃ¡bil selecionada. Usar o ponto â€˜.â€™ como separador de milhar e a vÃ­rgula â€˜,â€™como separador decimal -->
 				</CustoCatContabilExec>
 			</DestRecursosEmp>
 		</RecursoEmpresa>
-		<RecursoParceira> <!-- @@ EXCLUIR@@ Caso não haja entidade parceira aportando recursos financeiros no Projeto 
+		<RecursoParceira> <!-- @@ EXCLUIR@@ Caso nÃ£o haja entidade parceira aportando recursos financeiros no Projeto 
 								## REPETIR## para identificar todas a entidades parceiras -->
-			<CNPJParc>Número</CNPJParc> <!--  CNPJ da entidade parceira financiadora de recursos no Projeto de P&D, no formato numérico 99999999999999 -->
+			<CNPJParc>NÃºmero</CNPJParc> <!--  CNPJ da entidade parceira financiadora de recursos no Projeto de P&D, no formato numÃ©rico 99999999999999 -->
 			<DestRecursosExec> <!-- ## REPETIR ## para identificar todas as entidades executoras que receberam recursos financeiros de uma determinada empresa de uma emrpesa parceira -->
-				<CNPJExec>Número</CNPJExec> <!-- CNPJ da entidade executora receptora de recursos no Projeto de P&D, no formato numérico 99999999999999 -->
+				<CNPJExec>NÃºmero</CNPJExec> <!-- CNPJ da entidade executora receptora de recursos no Projeto de P&D, no formato numÃ©rico 99999999999999 -->
 				<CustoCatContabilExec>
-					<CatContabil>Código</CatContabil> <!-- Código da categoria contábil, custeada para a entidade executora selecionada conforme tabela abaixo:
-					Código - Categoria Contábil
+					<CatContabil>CÃ³digo</CatContabil> <!-- CÃ³digo da categoria contÃ¡bil, custeada para a entidade executora selecionada conforme tabela abaixo:
+					CÃ³digo - Categoria ContÃ¡bil
 					RH - Recursos Humanos
-					ST - Serviços de Terceiros
+					ST - ServiÃ§os de Terceiros
 					MC - Materiais de Consumo
 					MP - Materiais Permanentes e Equipamentos
-					VD - Viagens e Diárias
+					VD - Viagens e DiÃ¡rias
 					OU - Outros
 					-->
-					<CustoExec>Moeda</CustoExec> <!-- Valor dos recursos reconhecidos pela Auditoria recebidos pela entidade executora na categoria contábil selecionada. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal -->
+					<CustoExec>Moeda</CustoExec> <!-- Valor dos recursos reconhecidos pela Auditoria recebidos pela entidade executora na categoria contÃ¡bil selecionada. Usar o ponto â€˜.â€™ como separador de milhar e a vÃ­rgula â€˜,â€™como separador decimal -->
 				</CustoCatContabilExec>
 			</DestRecursosExec>
 		</RecursoParceira>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="ISO8859-1"?>
-<PED Tipo="PRORROGAEXECUCAOPROJETO" CodigoEmpresa="0CÓDIGO DA EMPRESA PARA ENVIO DE INFORMAÇÕES VIA DUTO">
+<?xml version="1.0" encoding="UTF-8"?>
+<PED Tipo="PRORROGAEXECUCAOPROJETO" CodigoEmpresa="0CÃ“DIGO DA EMPRESA PARA ENVIO DE INFORMAÃ‡Ã•ES VIA DUTO">
 	<PD_PrazoExecProjeto>
 		<Projeto>
-			<CodProjeto>Código</CodProjeto> <!-- Código da Empresa para envio de informações via DUTO, no formato numérico 9999.  -->
-			<Duracao>Número</Duracao> <!--Nova duração, em meses, para execução do Projeto de P&D ou de Gestão (duração máxima: 60; 12).-->
+			<CodProjeto>CÃ³digo</CodProjeto> <!-- CÃ³digo da Empresa para envio de informaÃ§Ãµes via DUTO, no formato numÃ©rico 9999.  -->
+			<Duracao>NÃºmero</Duracao> <!--Nova duraÃ§Ã£o, em meses, para execuÃ§Ã£o do Projeto de P&D ou de GestÃ£o (duraÃ§Ã£o mÃ¡xima: 60; 12).-->
 		</Projeto>
 	</PD_PrazoExecProjeto>
 </PED>

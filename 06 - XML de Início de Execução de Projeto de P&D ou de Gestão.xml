@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="ISO8859-1"?>
-<PED Tipo="INICIOEXECUCAOPROJETO" CodigoEmpresa="0CÓDIGO DA EMPRESA PARA ENVIO DE INFORMAÇÕES VIA DUTO">
+<?xml version="1.0" encoding="UTF-8"?>
+<PED Tipo="INICIOEXECUCAOPROJETO" CodigoEmpresa="0CÃ“DIGO DA EMPRESA PARA ENVIO DE INFORMAÃ‡Ã•ES VIA DUTO">
 	<PD_InicioExecProjeto>
 		<Projeto>
-			<CodProjeto>Código</CodProjeto> <!-- Código da Empresa para envio de informações via DUTO, no formato numérico 9999.  -->
-			<DataIniProjeto>Data</DataIniProjeto> <!--Data de início de execução do Projeto de P&D ou de Gestão, no formato numérico DDMMAAAA.-->
-			<DirPropIntProjeto>EE</DirPropIntProjeto> <!--Código do tipo de compartilhamento dos resultados do Projeto de P&D ou de Gestão, em conformidade com o contrato estabelecido entre as entidades participantes do projeto, conforme Tabela ABAIXO
-			Código	-	Tipo de Compartilhamento
-			DP	-	Domínio Público
-			EE	-	Exclusivo da(s) empresa(s) de energia elétrica
-			EX	-	Exclusivo da(s) entidade(s) executora(s) (NUNCA SERÁ)
-			CE	-	Compartilhado entre as empresa(s) de energia elétrica e entidade(s) executora(s)
+			<CodProjeto>CÃ³digo</CodProjeto> <!-- CÃ³digo da Empresa para envio de informaÃ§Ãµes via DUTO, no formato numÃ©rico 9999.  -->
+			<DataIniProjeto>Data</DataIniProjeto> <!--Data de inÃ­cio de execuÃ§Ã£o do Projeto de P&D ou de GestÃ£o, no formato numÃ©rico DDMMAAAA.-->
+			<DirPropIntProjeto>EE</DirPropIntProjeto> <!--CÃ³digo do tipo de compartilhamento dos resultados do Projeto de P&D ou de GestÃ£o, em conformidade com o contrato estabelecido entre as entidades participantes do projeto, conforme Tabela ABAIXO
+			CÃ³digo	-	Tipo de Compartilhamento
+			DP	-	DomÃ­nio PÃºblico
+			EE	-	Exclusivo da(s) empresa(s) de energia elÃ©trica
+			EX	-	Exclusivo da(s) entidade(s) executora(s) (NUNCA SERÃ)
+			CE	-	Compartilhado entre as empresa(s) de energia elÃ©trica e entidade(s) executora(s)
 			-->
 		</Projeto>
 	</PD_InicioExecProjeto>
