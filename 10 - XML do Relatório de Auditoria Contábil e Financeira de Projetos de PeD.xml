@@ -27,7 +27,7 @@
 				</CustoCatContabilExec>
 			</DestRecursosExec>
 			<DestRecursosEmp>  <!-- @@ EXCLUIR@@ Caso não haja custeio de recursos para a própria empresa de energia elétrica no Projeto -->
-				<CustoCatContabilExec> <!-- ## REPETIR##  tantas vezes quantas forem necessárias para identificar todas as categorias contábeis distintas, custeadas para a própria empresa de energia elétrica -->
+				<CustoCatContabilEmp> <!-- ## REPETIR##  tantas vezes quantas forem necessárias para identificar todas as categorias contábeis distintas, custeadas para a própria empresa de energia elétrica -->
 					<CatContabil>Código</CatContabil> <!--  Código da categoria contábil, custeada para a própria empresa de energia elétrica, conforme tabela abaixo:
 					Código - Categoria Contábil
 					RH - Recursos Humanos
@@ -37,7 +37,7 @@
 					VD - Viagens e Diárias
 					OU - Outros	-->
 					<CustoEmp>Moeda</CustoEmp> <!--  Valor dos recursos reconhecidos pela Auditoria recebidos pela própria empresa de energia elétrica na categoria contábil selecionada. Usar o ponto ‘.’ como separador de milhar e a vírgula ‘,’como separador decimal -->
-				</CustoCatContabilExec>
+				</CustoCatContabilEmp>
 			</DestRecursosEmp>
 		</RecursoEmpresa>
 		<RecursoParceira> <!-- @@ EXCLUIR@@ Caso não haja entidade parceira aportando recursos financeiros no Projeto 
