@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PED Tipo="PROJETOPED" CodigoEmpresa="0CÓDIGO DA EMPRESA PARA ENVIO DE INFORMAÇÕES VIA DUTO">
 	<PD_ProjetoBase>
+		<CodProjeto>Código</CodProjeto> <!--VERIFICAR NO DUTO Código do projeto no formato PD-99999-8888/AAAA, onde 99999 e 8888 correspondem aos códigos de empresa e de arquivo informados no nome do arquivo de projeto XML. “AAAA” Corresponde ao ano do carregamento. Exemplo considerando o carregamento em 2017: APLPED45678_PROJETO_0002_S01.XML CodProjeto: PD-45678-0002/2017. -->
 		<AvIniANEEL>Letra</AvIniANEEL> <!--Interesse da Empresa em que a ANEEL proceda a avaliação inicial do projeto: S (Sim); N (Não).-->
 		<Titulo>Texto</Titulo> <!--Título do projeto (até 200 caracteres).-->
 		<Duracao>Número</Duracao> <!--Duração, em meses, para execução do Projeto de P&D (duração máxima: 60).-->
